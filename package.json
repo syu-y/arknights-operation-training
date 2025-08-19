@@ -36,5 +36,9 @@
 		"vite": "^7.0.4",
 		"vitest": "^3.2.3",
 		"vitest-browser-svelte": "^0.1.0"
+	},
+	"dependencies": {
+		"cheerio": "^1.1.2",
+		"undici": "^7.14.0"
 	}
 }
