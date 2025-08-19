@@ -1,22 +1,23 @@
-# sv
+# アークナイツ指揮練習ツール
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
+アークナイツの指揮練習を行うためのツールです。
 
-## Creating a project
+## アプリについて
 
-If you're seeing this, you've probably already done this step. Congrats!
+アークナイツのオペレーターの配置を検討するためのツールです。
 
-```sh
-# create a new project in the current directory
-npx sv create
+**主な機能**
+- フィールドの作成
+  - 通常マス/高台マス/自拠点マス/敵拠点マス/階段マスを配置
+  - 通常マス/高台マスに配置不可/効果ありのタグ付け
+  - フィールドのサイズ変更（最大12×12）
+  - 選択範囲のコピー&ペースト
+- オペレーターの配置
+  - オペレーターをダブルクリックで向き変更
+  - ドラッグでオペレーターの移動
+  - オペレーターを右クリックでスキル切替
 
-# create a new project in my-app
-npx sv create my-app
-```
-
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+## ローカル起動
 
 ```sh
 npm run dev
@@ -25,14 +26,18 @@ npm run dev
 npm run dev -- --open
 ```
 
-## Building
-
-To create a production version of your app:
+## ビルド
 
 ```sh
 npm run build
 ```
 
-You can preview the production build with `npm run preview`.
+## 使用例
+危機契約＃3「浄罪」― 通常試験区画
 
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
+![alt text](image.png)
+
+## Content Credits
+©Hypergryph Co.,Ltd. All Rights Reserved.
+©2018 Yostar, Inc. All Rights Reserved.
+使用しているゲーム画像の著作権および商標権、その他知的財産権は、当該コンテンツの提供元に帰属します。
