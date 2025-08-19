@@ -9,9 +9,10 @@
   } from '../types/Operator';
   import patterns from '../tools/patterns.json';
   import { computeRangeCells } from '$lib/utils/attackRange.js';
+import { Icons } from '$lib/utils/importImages'
 
   // ===== 基本設定 =====
-  let CELL = 50; // 1マスのピクセル
+  let CELL = 60; // 1マスのピクセル
   let gridW = 12; // 横マス数
   let gridH = 12; // 縦マス数
   let selW = gridW;
@@ -535,8 +536,9 @@
               <select
                 bind:value={selW}
                 on:change={(e) => resizeGrid(+selW, gridH)}
+								class="selectbox"
               >
-                {#each sizeOptions as n}<option value={n}>{n}</option>{/each}
+                {#each sizeOptions as n}<option value={n} class="selectbox-options">{n}</option>{/each}
               </select>
             </label>
             ×
@@ -545,14 +547,15 @@
               <select
                 bind:value={selH}
                 on:change={(e) => resizeGrid(gridW, +selH)}
+								class="selectbox"
               >
-                {#each sizeOptions as n}<option value={n}>{n}</option>{/each}
+                {#each sizeOptions as n}<option value={n} class="selectbox-options">{n}</option>{/each}
               </select>
             </label>
-          </div>
-          <div class="hint">※セルをクリックすると順送り切替</div>
+						
         </div>
-        <div class="group">
+        <div class="child-group">
+          <div class="hint copyinfo">・セルをクリックすると順送り切替</div>
           <div class="hint copyinfo">
             ・コピー&ペースト：Shift＋ドラッグで範囲選択 → Ctrl + C →
             コピー先のセルをクリック
@@ -561,19 +564,20 @@
             ・マス情報追加：地上マス、高台マスで右クリック
           </div>
         </div>
+        </div>
       {:else}
         <div class="group">
           <span class="head">オペレーター種別</span>
-          <select bind:value={selectedOperator}>
-            {#each opLists as op}
-              <option value={op}>{op.name}</option>
+          <select bind:value={selectedOperator} class="selectbox">
+            {#each opLists.filter(op => op.rare > 4) as op}
+              <option value={op} class="selectbox-options">{op.name}</option>
             {/each}
           </select>
-          <div class="hint">
-            ・空セルクリックで配置（重複不可）、ドラッグで移動
-          </div>
-          <div class="hint">・中心マスダブルクリックで向き変更（▲▶▼◀）</div>
-          <div class="hint">・中心マス右クリックでスキル変更</div>
+					<div class="child-sgroup">
+						<div class="hint">・空セルクリックで配置（重複不可）、ドラッグで移動</div>
+						<div class="hint">・中心マスダブルクリックで向き変更（▲▶▼◀）</div>
+						<div class="hint">・中心マス右クリックでスキル変更</div>
+					</div>
         </div>
       {/if}
     </div>
@@ -655,9 +659,10 @@
             e.stopPropagation();
             OpeUtils.cycleSkill(op);
           }}
-          title={`${op.class.label} / 向き: ${op.facing}`}
+          title={`${op.name} / 向き: ${op.facing}`}
         >
           <div class="op-body">
+						<img src={Icons[op.id-1]} >
             <button
               class="op-del"
               on:click|stopPropagation|preventDefault={() =>
@@ -666,8 +671,8 @@
               title="このオペレーターを削除"
               aria-label="オペレーターを削除">×</button
             >
-            <div class="op-type">{op.class.label}</div>
-            <div class="op-arrow">{arrowFor[op.facing]}</div>
+            <!-- <div class="op-arrow">{arrowFor[op.facing]}</div>
+            <div class="op-name">{op.name}</div> -->
             <div class="op-skill">S{(op.skillIdx ?? 0) + 1}</div>
           </div>
         </div>
@@ -773,7 +778,7 @@
   }
 
   .maparea {
-    width: 650px;
+    width: 770px;
     margin: 10px 30px;
   }
 
@@ -782,7 +787,7 @@
     gap: 16px;
     flex-wrap: wrap;
     align-items: center;
-    margin: 12px 0 10px;
+    margin: 0px 0 10px;
   }
   .group {
     display: flex;
@@ -804,11 +809,14 @@
     font-size: 12px;
     color: #ffffff;
   }
-
+	.selectbox-options {
+    color: white;
+    background: black;
+	}
   /** ----------------------- グリッド----------------------- */
   .stage-wrap {
     overflow: auto;
-    padding: 20px;
+    padding: 10px 20px;
     border: 1px dashed #d4d4d8;
     border-radius: 12px;
   }
@@ -967,11 +975,11 @@
     align-items: center;
     justify-items: center;
   }
-  .op-type {
+  .op-arrow {
     font-size: 10px;
     opacity: 0.8;
   }
-  .op-arrow {
+  .op-name {
     font-size: 18px;
     line-height: 1;
   }
@@ -1015,6 +1023,13 @@
     .legend {
       color: white;
     }
+		.selectbox {
+      border: 1px solid white;
+		}
+		.selectbox-options {
+			color: black;
+			background: white;
+		}
     .op-skill {
       background: #1d4ed8;
     }
