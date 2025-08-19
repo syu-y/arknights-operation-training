@@ -766,6 +766,15 @@ import { Icons } from '$lib/utils/importImages'
     <div><span class="swatch" style="--c:#ED1A3D"></span>相手拠点</div>
     <div><span class="swatch" style="--c:#1A3DED"></span>自拠点</div>
   </div>
+
+  <!-- ===== クレジット表記 ===== -->
+  <hr/>
+  <div>
+    <p>©Hypergryph Co.,Ltd. All Rights Reserved.</p>
+    <p>©2018 Yostar, Inc. All Rights Reserved.</p>
+    <p>使用しているゲーム画像の著作権および商標権、その他知的財産権は、当該コンテンツの提供元に帰属します。</p>
+  </div>
+
 </div>
 
 <!-- ===== css ===== -->
