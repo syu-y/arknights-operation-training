@@ -45,6 +45,22 @@ export function gridFromKey(key) {
     }
     return rows;
   }
+  if (key.startsWith("cross:")) {
+    const m = key.match(/^cross:(\d+),(\d+),(\d+),(\d+)$/);
+    if (!m) return null;
+    const L = +m[1], R = +m[2], U = +m[3], D = +m[4];
+    const rows = [];
+    for (let y = U; y >= -D; y--) {
+      let row = "";
+      for (let x = -L; x <= R; x++) {
+        if (x === 0 && y === 0) row += "■";
+        else if (x === 0 || y === 0) row += "□";
+        else row += " ";
+      }
+      rows.push(row.replace(/\s+$/, ""));
+    }
+    return rows;
+  }
   return null; // grid:<hash> は patterns.json の grid を使う
 }
 

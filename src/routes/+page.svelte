@@ -9,7 +9,7 @@
   } from '../types/Operator';
   import patterns from '../tools/patterns.json';
   import { computeRangeCells } from '$lib/utils/attackRange.js';
-import { Icons } from '$lib/utils/importImages'
+  import { Icons } from '$lib/utils/importImages';
 
   // ===== 基本設定 =====
   let CELL = 60; // 1マスのピクセル
@@ -293,7 +293,7 @@ import { Icons } from '$lib/utils/importImages'
     attackTiles(op: Operator) {
       const base = OpeUtils.basePattern(op);
       const allRange = base
-			.map((o) => OpeUtils.rotateOffset(o, op.facing))
+        .map((o) => OpeUtils.rotateOffset(o, op.facing))
         .map(([dx, dy]) => [op.x + dx, op.y + dy]);
       const attackRange = allRange.filter(([x, y]) => inBounds(x, y));
 
@@ -536,9 +536,12 @@ import { Icons } from '$lib/utils/importImages'
               <select
                 bind:value={selW}
                 on:change={(e) => resizeGrid(+selW, gridH)}
-								class="selectbox"
+                class="selectbox"
               >
-                {#each sizeOptions as n}<option value={n} class="selectbox-options">{n}</option>{/each}
+                {#each sizeOptions as n}<option
+                    value={n}
+                    class="selectbox-options">{n}</option
+                  >{/each}
               </select>
             </label>
             ×
@@ -547,37 +550,41 @@ import { Icons } from '$lib/utils/importImages'
               <select
                 bind:value={selH}
                 on:change={(e) => resizeGrid(gridW, +selH)}
-								class="selectbox"
+                class="selectbox"
               >
-                {#each sizeOptions as n}<option value={n} class="selectbox-options">{n}</option>{/each}
+                {#each sizeOptions as n}<option
+                    value={n}
+                    class="selectbox-options">{n}</option
+                  >{/each}
               </select>
             </label>
-						
-        </div>
-        <div class="child-group">
-          <div class="hint copyinfo">・セルをクリックすると順送り切替</div>
-          <div class="hint copyinfo">
-            ・コピー&ペースト：Shift＋ドラッグで範囲選択 → Ctrl + C →
-            コピー先のセルをクリック
           </div>
-          <div class="hint copyinfo">
-            ・マス情報追加：地上マス、高台マスで右クリック
+          <div class="child-group">
+            <div class="hint copyinfo">・セルをクリックすると順送り切替</div>
+            <div class="hint copyinfo">
+              ・コピー&ペースト：Shift＋ドラッグで範囲選択 → Ctrl + C →
+              コピー先のセルをクリック
+            </div>
+            <div class="hint copyinfo">
+              ・マス情報追加：地上マス、高台マスで右クリック
+            </div>
           </div>
-        </div>
         </div>
       {:else}
         <div class="group">
           <span class="head">オペレーター種別</span>
           <select bind:value={selectedOperator} class="selectbox">
-            {#each opLists.filter(op => op.rare > 4) as op}
+            {#each opLists as op}
               <option value={op} class="selectbox-options">{op.name}</option>
             {/each}
           </select>
-					<div class="child-sgroup">
-						<div class="hint">・空セルクリックで配置（重複不可）、ドラッグで移動</div>
-						<div class="hint">・中心マスダブルクリックで向き変更（▲▶▼◀）</div>
-						<div class="hint">・中心マス右クリックでスキル変更</div>
-					</div>
+          <div class="child-sgroup">
+            <div class="hint">
+              ・空セルクリックで配置（重複不可）、ドラッグで移動
+            </div>
+            <div class="hint">・中心マスダブルクリックで向き変更（▲▶▼◀）</div>
+            <div class="hint">・中心マス右クリックでスキル変更</div>
+          </div>
         </div>
       {/if}
     </div>
@@ -662,7 +669,7 @@ import { Icons } from '$lib/utils/importImages'
           title={`${op.name} / 向き: ${op.facing}`}
         >
           <div class="op-body">
-						<img src={Icons[op.id-1]} >
+            <img src={Icons[op.id - 1]} />
             <button
               class="op-del"
               on:click|stopPropagation|preventDefault={() =>
@@ -768,13 +775,14 @@ import { Icons } from '$lib/utils/importImages'
   </div>
 
   <!-- ===== クレジット表記 ===== -->
-  <hr/>
+  <hr />
   <div>
     <p>©Hypergryph Co.,Ltd. All Rights Reserved.</p>
     <p>©2018 Yostar, Inc. All Rights Reserved.</p>
-    <p>使用しているゲーム画像の著作権および商標権、その他知的財産権は、当該コンテンツの提供元に帰属します。</p>
+    <p>
+      使用しているゲーム画像の著作権および商標権、その他知的財産権は、当該コンテンツの提供元に帰属します。
+    </p>
   </div>
-
 </div>
 
 <!-- ===== css ===== -->
@@ -818,10 +826,10 @@ import { Icons } from '$lib/utils/importImages'
     font-size: 12px;
     color: #ffffff;
   }
-	.selectbox-options {
+  .selectbox-options {
     color: white;
     background: black;
-	}
+  }
   /** ----------------------- グリッド----------------------- */
   .stage-wrap {
     overflow: auto;
@@ -1032,13 +1040,13 @@ import { Icons } from '$lib/utils/importImages'
     .legend {
       color: white;
     }
-		.selectbox {
+    .selectbox {
       border: 1px solid white;
-		}
-		.selectbox-options {
-			color: black;
-			background: white;
-		}
+    }
+    .selectbox-options {
+      color: black;
+      background: white;
+    }
     .op-skill {
       background: #1d4ed8;
     }

@@ -31,7 +31,6 @@ export  type Operator = {
     skillIdx: number
 };
 
-
 export const opLists: Operator[] = [
     {
         "id": 1,
@@ -156,7 +155,7 @@ export const opLists: Operator[] = [
         },
         {
             "mode": "S2",
-            "pattern": "53"
+            "pattern": "8"
         },
         {
             "mode": "S3",
@@ -183,7 +182,7 @@ export const opLists: Operator[] = [
         },
         {
             "mode": "S2",
-            "pattern": "8"
+            "pattern": "9"
         },
         {
             "mode": "S3",
@@ -314,7 +313,7 @@ export const opLists: Operator[] = [
         "skills": [
         {
             "mode": "S1",
-            "pattern": "8"
+            "pattern": "9"
         },
         {
             "mode": "S2",
@@ -341,7 +340,7 @@ export const opLists: Operator[] = [
         "skills": [
         {
             "mode": "S1",
-            "pattern": "9"
+            "pattern": "10"
         },
         {
             "mode": "S2",
@@ -349,7 +348,7 @@ export const opLists: Operator[] = [
         },
         {
             "mode": "S3",
-            "pattern": "9"
+            "pattern": "10"
         }
         ],
         "x": 0,
@@ -368,7 +367,7 @@ export const opLists: Operator[] = [
         "skills": [
         {
             "mode": "S1",
-            "pattern": "9"
+            "pattern": "10"
         },
         {
             "mode": "S2",
@@ -376,7 +375,7 @@ export const opLists: Operator[] = [
         },
         {
             "mode": "S3",
-            "pattern": "10"
+            "pattern": "11"
         }
         ],
         "x": 0,
@@ -395,15 +394,15 @@ export const opLists: Operator[] = [
         "skills": [
         {
             "mode": "S1",
-            "pattern": "11"
+            "pattern": "12"
         },
         {
             "mode": "S2",
-            "pattern": "11"
+            "pattern": "12"
         },
         {
             "mode": "S3",
-            "pattern": "12"
+            "pattern": "13"
         }
         ],
         "x": 0,
@@ -426,11 +425,11 @@ export const opLists: Operator[] = [
         },
         {
             "mode": "S2",
-            "pattern": "4"
+            "pattern": "14"
         },
         {
             "mode": "S3",
-            "pattern": "13"
+            "pattern": "15"
         }
         ],
         "x": 0,
@@ -457,7 +456,7 @@ export const opLists: Operator[] = [
         },
         {
             "mode": "S3",
-            "pattern": "9"
+            "pattern": "10"
         }
         ],
         "x": 0,
@@ -511,7 +510,7 @@ export const opLists: Operator[] = [
         },
         {
             "mode": "S3",
-            "pattern": "9"
+            "pattern": "10"
         }
         ],
         "x": 0,
@@ -534,7 +533,7 @@ export const opLists: Operator[] = [
         },
         {
             "mode": "S2",
-            "pattern": "14"
+            "pattern": "16"
         },
         {
             "mode": "S3",
@@ -588,11 +587,11 @@ export const opLists: Operator[] = [
         },
         {
             "mode": "S2",
-            "pattern": "15"
+            "pattern": "17"
         },
         {
             "mode": "S3",
-            "pattern": "14"
+            "pattern": "16"
         }
         ],
         "x": 0,
@@ -615,11 +614,11 @@ export const opLists: Operator[] = [
         },
         {
             "mode": "S2",
-            "pattern": "16"
+            "pattern": "18"
         },
         {
             "mode": "S3",
-            "pattern": "1"
+            "pattern": "8"
         }
         ],
         "x": 0,
@@ -638,11 +637,11 @@ export const opLists: Operator[] = [
         "skills": [
         {
             "mode": "S1",
-            "pattern": "16"
+            "pattern": "18"
         },
         {
             "mode": "S2",
-            "pattern": "17"
+            "pattern": "19"
         },
         {
             "mode": "S3",
@@ -669,7 +668,7 @@ export const opLists: Operator[] = [
         },
         {
             "mode": "S2",
-            "pattern": "9"
+            "pattern": "10"
         },
         {
             "mode": "S3",
@@ -700,7 +699,7 @@ export const opLists: Operator[] = [
         },
         {
             "mode": "S3",
-            "pattern": "18"
+            "pattern": "20"
         }
         ],
         "x": 0,
@@ -750,7 +749,7 @@ export const opLists: Operator[] = [
         },
         {
             "mode": "S2",
-            "pattern": "12"
+            "pattern": "13"
         },
         {
             "mode": "S3",
@@ -804,11 +803,11 @@ export const opLists: Operator[] = [
         },
         {
             "mode": "S2",
-            "pattern": "4"
+            "pattern": "21"
         },
         {
             "mode": "S3",
-            "pattern": "19"
+            "pattern": "9"
         }
         ],
         "x": 0,
@@ -827,15 +826,15 @@ export const opLists: Operator[] = [
         "skills": [
         {
             "mode": "S1",
-            "pattern": "4"
+            "pattern": "14"
         },
         {
             "mode": "S2",
-            "pattern": "20"
+            "pattern": "22"
         },
         {
             "mode": "S3",
-            "pattern": "21"
+            "pattern": "23"
         }
         ],
         "x": 0,
@@ -881,15 +880,15 @@ export const opLists: Operator[] = [
         "skills": [
         {
             "mode": "S1",
-            "pattern": "12"
+            "pattern": "13"
         },
         {
             "mode": "S2",
-            "pattern": "11"
+            "pattern": "12"
         },
         {
             "mode": "S3",
-            "pattern": "12"
+            "pattern": "13"
         }
         ],
         "x": 0,
@@ -912,7 +911,7 @@ export const opLists: Operator[] = [
         },
         {
             "mode": "S2",
-            "pattern": "12"
+            "pattern": "13"
         },
         {
             "mode": "S3",
@@ -962,15 +961,15 @@ export const opLists: Operator[] = [
         "skills": [
         {
             "mode": "S1",
-            "pattern": "16"
+            "pattern": "18"
         },
         {
             "mode": "S2",
-            "pattern": "22"
+            "pattern": "24"
         },
         {
             "mode": "S3",
-            "pattern": "23"
+            "pattern": "25"
         }
         ],
         "x": 0,
@@ -989,7 +988,7 @@ export const opLists: Operator[] = [
         "skills": [
         {
             "mode": "S1",
-            "pattern": "16"
+            "pattern": "18"
         },
         {
             "mode": "S2",
@@ -997,7 +996,7 @@ export const opLists: Operator[] = [
         },
         {
             "mode": "S3",
-            "pattern": "22"
+            "pattern": "24"
         }
         ],
         "x": 0,
@@ -1024,7 +1023,7 @@ export const opLists: Operator[] = [
         },
         {
             "mode": "S3",
-            "pattern": "22"
+            "pattern": "24"
         }
         ],
         "x": 0,
@@ -1043,7 +1042,7 @@ export const opLists: Operator[] = [
         "skills": [
         {
             "mode": "S1",
-            "pattern": "16"
+            "pattern": "18"
         },
         {
             "mode": "S2",
@@ -1074,7 +1073,7 @@ export const opLists: Operator[] = [
         },
         {
             "mode": "S2",
-            "pattern": "16"
+            "pattern": "18"
         },
         {
             "mode": "S3",
@@ -1124,15 +1123,15 @@ export const opLists: Operator[] = [
         "skills": [
         {
             "mode": "S1",
-            "pattern": "24"
+            "pattern": "26"
         },
         {
             "mode": "S2",
-            "pattern": "24"
+            "pattern": "26"
         },
         {
             "mode": "S3",
-            "pattern": "24"
+            "pattern": "26"
         }
         ],
         "x": 0,
@@ -1155,7 +1154,7 @@ export const opLists: Operator[] = [
         },
         {
             "mode": "S2",
-            "pattern": "16"
+            "pattern": "18"
         },
         {
             "mode": "S3",
@@ -1177,8 +1176,16 @@ export const opLists: Operator[] = [
         },
         "skills": [
         {
+            "mode": "S1",
+            "pattern": "21"
+        },
+        {
             "mode": "S2",
             "pattern": "6"
+        },
+        {
+            "mode": "S3",
+            "pattern": "21"
         }
         ],
         "x": 0,
@@ -1232,7 +1239,7 @@ export const opLists: Operator[] = [
         },
         {
             "mode": "S3",
-            "pattern": "12"
+            "pattern": "13"
         }
         ],
         "x": 0,
@@ -1259,7 +1266,7 @@ export const opLists: Operator[] = [
         },
         {
             "mode": "S3",
-            "pattern": "15"
+            "pattern": "17"
         }
         ],
         "x": 0,
@@ -1278,15 +1285,15 @@ export const opLists: Operator[] = [
         "skills": [
         {
             "mode": "S1",
-            "pattern": "25"
+            "pattern": "27"
         },
         {
             "mode": "S2",
-            "pattern": "25"
+            "pattern": "27"
         },
         {
             "mode": "S3",
-            "pattern": "25"
+            "pattern": "27"
         }
         ],
         "x": 0,
@@ -1313,7 +1320,7 @@ export const opLists: Operator[] = [
         },
         {
             "mode": "S3",
-            "pattern": "25"
+            "pattern": "27"
         }
         ],
         "x": 0,
@@ -1332,15 +1339,15 @@ export const opLists: Operator[] = [
         "skills": [
         {
             "mode": "S1",
-            "pattern": "26"
+            "pattern": "28"
         },
         {
             "mode": "S2",
-            "pattern": "26"
+            "pattern": "28"
         },
         {
             "mode": "S3",
-            "pattern": "26"
+            "pattern": "28"
         }
         ],
         "x": 0,
@@ -1386,15 +1393,15 @@ export const opLists: Operator[] = [
         "skills": [
         {
             "mode": "S1",
-            "pattern": "18"
+            "pattern": "20"
         },
         {
             "mode": "S2",
-            "pattern": "18"
+            "pattern": "20"
         },
         {
             "mode": "S3",
-            "pattern": "9"
+            "pattern": "10"
         }
         ],
         "x": 0,
@@ -1413,15 +1420,15 @@ export const opLists: Operator[] = [
         "skills": [
         {
             "mode": "S1",
-            "pattern": "27"
+            "pattern": "29"
         },
         {
             "mode": "S2",
-            "pattern": "27"
+            "pattern": "29"
         },
         {
             "mode": "S3",
-            "pattern": "27"
+            "pattern": "29"
         }
         ],
         "x": 0,
@@ -1440,15 +1447,15 @@ export const opLists: Operator[] = [
         "skills": [
         {
             "mode": "S1",
-            "pattern": "28"
+            "pattern": "30"
         },
         {
             "mode": "S2",
-            "pattern": "29"
+            "pattern": "31"
         },
         {
             "mode": "S3",
-            "pattern": "29"
+            "pattern": "31"
         }
         ],
         "x": 0,
@@ -1467,15 +1474,15 @@ export const opLists: Operator[] = [
         "skills": [
         {
             "mode": "S1",
-            "pattern": "18"
+            "pattern": "20"
         },
         {
             "mode": "S2",
-            "pattern": "18"
+            "pattern": "20"
         },
         {
             "mode": "S3",
-            "pattern": "14"
+            "pattern": "16"
         }
         ],
         "x": 0,
@@ -1494,15 +1501,15 @@ export const opLists: Operator[] = [
         "skills": [
         {
             "mode": "S1",
-            "pattern": "26"
+            "pattern": "28"
         },
         {
             "mode": "S2",
-            "pattern": "26"
+            "pattern": "28"
         },
         {
             "mode": "S3",
-            "pattern": "26"
+            "pattern": "28"
         }
         ],
         "x": 0,
@@ -1521,15 +1528,15 @@ export const opLists: Operator[] = [
         "skills": [
         {
             "mode": "S1",
-            "pattern": "25"
+            "pattern": "27"
         },
         {
             "mode": "S2",
-            "pattern": "25"
+            "pattern": "27"
         },
         {
             "mode": "S3",
-            "pattern": "25"
+            "pattern": "27"
         }
         ],
         "x": 0,
@@ -1541,87 +1548,6 @@ export const opLists: Operator[] = [
         "id": 57,
         "rare": 6,
         "name": "レイ",
-        "class": {
-        "name": "sniper",
-        "label": "狙撃"
-        },
-        "skills": [
-        {
-            "mode": "S1",
-            "pattern": "30"
-        },
-        {
-            "mode": "S2",
-            "pattern": "30"
-        },
-        {
-            "mode": "S3",
-            "pattern": "31"
-        }
-        ],
-        "x": 0,
-        "y": 0,
-        "facing": "E",
-        "skillIdx": 0
-    },
-    {
-        "id": 58,
-        "rare": 6,
-        "name": "ロサ",
-        "class": {
-        "name": "sniper",
-        "label": "狙撃"
-        },
-        "skills": [
-        {
-            "mode": "S1",
-            "pattern": "27"
-        },
-        {
-            "mode": "S2",
-            "pattern": "27"
-        },
-        {
-            "mode": "S3",
-            "pattern": "27"
-        }
-        ],
-        "x": 0,
-        "y": 0,
-        "facing": "E",
-        "skillIdx": 0
-    },
-    {
-        "id": 59,
-        "rare": 6,
-        "name": "ロスモンティス",
-        "class": {
-        "name": "sniper",
-        "label": "狙撃"
-        },
-        "skills": [
-        {
-            "mode": "S1",
-            "pattern": "26"
-        },
-        {
-            "mode": "S2",
-            "pattern": "26"
-        },
-        {
-            "mode": "S3",
-            "pattern": "26"
-        }
-        ],
-        "x": 0,
-        "y": 0,
-        "facing": "E",
-        "skillIdx": 0
-    },
-    {
-        "id": 60,
-        "rare": 6,
-        "name": "遊龍チェン",
         "class": {
         "name": "sniper",
         "label": "狙撃"
@@ -1646,12 +1572,66 @@ export const opLists: Operator[] = [
         "skillIdx": 0
     },
     {
-        "id": 61,
+        "id": 58,
         "rare": 6,
-        "name": "イフリータ",
+        "name": "ロサ",
         "class": {
-        "name": "caster",
-        "label": "術師"
+        "name": "sniper",
+        "label": "狙撃"
+        },
+        "skills": [
+        {
+            "mode": "S1",
+            "pattern": "29"
+        },
+        {
+            "mode": "S2",
+            "pattern": "29"
+        },
+        {
+            "mode": "S3",
+            "pattern": "29"
+        }
+        ],
+        "x": 0,
+        "y": 0,
+        "facing": "E",
+        "skillIdx": 0
+    },
+    {
+        "id": 59,
+        "rare": 6,
+        "name": "ロスモンティス",
+        "class": {
+        "name": "sniper",
+        "label": "狙撃"
+        },
+        "skills": [
+        {
+            "mode": "S1",
+            "pattern": "28"
+        },
+        {
+            "mode": "S2",
+            "pattern": "28"
+        },
+        {
+            "mode": "S3",
+            "pattern": "28"
+        }
+        ],
+        "x": 0,
+        "y": 0,
+        "facing": "E",
+        "skillIdx": 0
+    },
+    {
+        "id": 60,
+        "rare": 6,
+        "name": "遊龍チェン",
+        "class": {
+        "name": "sniper",
+        "label": "狙撃"
         },
         "skills": [
         {
@@ -1664,7 +1644,34 @@ export const opLists: Operator[] = [
         },
         {
             "mode": "S3",
-            "pattern": "34"
+            "pattern": "35"
+        }
+        ],
+        "x": 0,
+        "y": 0,
+        "facing": "E",
+        "skillIdx": 0
+    },
+    {
+        "id": 61,
+        "rare": 6,
+        "name": "イフリータ",
+        "class": {
+        "name": "caster",
+        "label": "術師"
+        },
+        "skills": [
+        {
+            "mode": "S1",
+            "pattern": "36"
+        },
+        {
+            "mode": "S2",
+            "pattern": "36"
+        },
+        {
+            "mode": "S3",
+            "pattern": "36"
         }
         ],
         "x": 0,
@@ -1683,15 +1690,15 @@ export const opLists: Operator[] = [
         "skills": [
         {
             "mode": "S1",
-            "pattern": "14"
+            "pattern": "16"
         },
         {
             "mode": "S2",
-            "pattern": "14"
+            "pattern": "16"
         },
         {
             "mode": "S3",
-            "pattern": "23"
+            "pattern": "25"
         }
         ],
         "x": 0,
@@ -1710,15 +1717,15 @@ export const opLists: Operator[] = [
         "skills": [
         {
             "mode": "S1",
-            "pattern": "15"
+            "pattern": "17"
         },
         {
             "mode": "S2",
-            "pattern": "35"
+            "pattern": "37"
         },
         {
             "mode": "S3",
-            "pattern": "35"
+            "pattern": "37"
         }
         ],
         "x": 0,
@@ -1745,7 +1752,7 @@ export const opLists: Operator[] = [
         },
         {
             "mode": "S3",
-            "pattern": "22"
+            "pattern": "24"
         }
         ],
         "x": 0,
@@ -1764,11 +1771,11 @@ export const opLists: Operator[] = [
         "skills": [
         {
             "mode": "S1",
-            "pattern": "14"
+            "pattern": "16"
         },
         {
             "mode": "S2",
-            "pattern": "14"
+            "pattern": "16"
         },
         {
             "mode": "S3",
@@ -1791,15 +1798,15 @@ export const opLists: Operator[] = [
         "skills": [
         {
             "mode": "S1",
-            "pattern": "14"
+            "pattern": "16"
         },
         {
             "mode": "S2",
-            "pattern": "21"
+            "pattern": "23"
         },
         {
             "mode": "S3",
-            "pattern": "14"
+            "pattern": "16"
         }
         ],
         "x": 0,
@@ -1818,7 +1825,7 @@ export const opLists: Operator[] = [
         "skills": [
         {
             "mode": "S1",
-            "pattern": "18"
+            "pattern": "20"
         },
         {
             "mode": "S2",
@@ -1826,7 +1833,7 @@ export const opLists: Operator[] = [
         },
         {
             "mode": "S3",
-            "pattern": "36"
+            "pattern": "38"
         }
         ],
         "x": 0,
@@ -1845,11 +1852,11 @@ export const opLists: Operator[] = [
         "skills": [
         {
             "mode": "S1",
-            "pattern": "14"
+            "pattern": "16"
         },
         {
             "mode": "S2",
-            "pattern": "14"
+            "pattern": "16"
         },
         {
             "mode": "S3",
@@ -1872,15 +1879,15 @@ export const opLists: Operator[] = [
         "skills": [
         {
             "mode": "S1",
-            "pattern": "14"
+            "pattern": "16"
         },
         {
             "mode": "S2",
-            "pattern": "37"
+            "pattern": "39"
         },
         {
             "mode": "S3",
-            "pattern": "23"
+            "pattern": "25"
         }
         ],
         "x": 0,
@@ -1899,15 +1906,15 @@ export const opLists: Operator[] = [
         "skills": [
         {
             "mode": "S1",
-            "pattern": "14"
+            "pattern": "16"
         },
         {
             "mode": "S2",
-            "pattern": "14"
+            "pattern": "16"
         },
         {
             "mode": "S3",
-            "pattern": "25"
+            "pattern": "27"
         }
         ],
         "x": 0,
@@ -1926,7 +1933,7 @@ export const opLists: Operator[] = [
         "skills": [
         {
             "mode": "S1",
-            "pattern": "18"
+            "pattern": "20"
         },
         {
             "mode": "S2",
@@ -1934,7 +1941,7 @@ export const opLists: Operator[] = [
         },
         {
             "mode": "S3",
-            "pattern": "38"
+            "pattern": "40"
         }
         ],
         "x": 0,
@@ -1953,15 +1960,15 @@ export const opLists: Operator[] = [
         "skills": [
         {
             "mode": "S1",
-            "pattern": "18"
+            "pattern": "20"
         },
         {
             "mode": "S2",
-            "pattern": "18"
+            "pattern": "20"
         },
         {
             "mode": "S3",
-            "pattern": "36"
+            "pattern": "38"
         }
         ],
         "x": 0,
@@ -1988,7 +1995,7 @@ export const opLists: Operator[] = [
         },
         {
             "mode": "S3",
-            "pattern": "22"
+            "pattern": "24"
         }
         ],
         "x": 0,
@@ -2011,11 +2018,11 @@ export const opLists: Operator[] = [
         },
         {
             "mode": "S2",
-            "pattern": "14"
+            "pattern": "16"
         },
         {
             "mode": "S3",
-            "pattern": "36"
+            "pattern": "38"
         }
         ],
         "x": 0,
@@ -2034,15 +2041,15 @@ export const opLists: Operator[] = [
         "skills": [
         {
             "mode": "S1",
-            "pattern": "14"
+            "pattern": "16"
         },
         {
             "mode": "S2",
-            "pattern": "21"
+            "pattern": "23"
         },
         {
             "mode": "S3",
-            "pattern": "14"
+            "pattern": "16"
         }
         ],
         "x": 0,
@@ -2061,15 +2068,15 @@ export const opLists: Operator[] = [
         "skills": [
         {
             "mode": "S1",
-            "pattern": "14"
+            "pattern": "16"
         },
         {
             "mode": "S2",
-            "pattern": "22"
+            "pattern": "24"
         },
         {
             "mode": "S3",
-            "pattern": "39"
+            "pattern": "41"
         }
         ],
         "x": 0,
@@ -2088,15 +2095,15 @@ export const opLists: Operator[] = [
         "skills": [
         {
             "mode": "S1",
-            "pattern": "25"
+            "pattern": "27"
         },
         {
             "mode": "S2",
-            "pattern": "25"
+            "pattern": "27"
         },
         {
             "mode": "S3",
-            "pattern": "25"
+            "pattern": "27"
         }
         ],
         "x": 0,
@@ -2142,15 +2149,15 @@ export const opLists: Operator[] = [
         "skills": [
         {
             "mode": "S1",
-            "pattern": "28"
+            "pattern": "30"
         },
         {
             "mode": "S2",
-            "pattern": "28"
+            "pattern": "30"
         },
         {
             "mode": "S3",
-            "pattern": "28"
+            "pattern": "30"
         }
         ],
         "x": 0,
@@ -2169,15 +2176,15 @@ export const opLists: Operator[] = [
         "skills": [
         {
             "mode": "S1",
-            "pattern": "40"
+            "pattern": "42"
         },
         {
             "mode": "S2",
-            "pattern": "40"
+            "pattern": "42"
         },
         {
             "mode": "S3",
-            "pattern": "40"
+            "pattern": "42"
         }
         ],
         "x": 0,
@@ -2223,15 +2230,15 @@ export const opLists: Operator[] = [
         "skills": [
         {
             "mode": "S1",
-            "pattern": "41"
+            "pattern": "43"
         },
         {
             "mode": "S2",
-            "pattern": "41"
+            "pattern": "43"
         },
         {
             "mode": "S3",
-            "pattern": "41"
+            "pattern": "43"
         }
         ],
         "x": 0,
@@ -2250,15 +2257,15 @@ export const opLists: Operator[] = [
         "skills": [
         {
             "mode": "S1",
-            "pattern": "28"
+            "pattern": "30"
         },
         {
             "mode": "S2",
-            "pattern": "28"
+            "pattern": "30"
         },
         {
             "mode": "S3",
-            "pattern": "42"
+            "pattern": "44"
         }
         ],
         "x": 0,
@@ -2277,15 +2284,15 @@ export const opLists: Operator[] = [
         "skills": [
         {
             "mode": "S1",
-            "pattern": "28"
+            "pattern": "30"
         },
         {
             "mode": "S2",
-            "pattern": "28"
+            "pattern": "30"
         },
         {
             "mode": "S3",
-            "pattern": "43"
+            "pattern": "45"
         }
         ],
         "x": 0,
@@ -2312,7 +2319,7 @@ export const opLists: Operator[] = [
         },
         {
             "mode": "S3",
-            "pattern": "22"
+            "pattern": "24"
         }
         ],
         "x": 0,
@@ -2331,15 +2338,15 @@ export const opLists: Operator[] = [
         "skills": [
         {
             "mode": "S1",
-            "pattern": "28"
+            "pattern": "30"
         },
         {
             "mode": "S2",
-            "pattern": "28"
+            "pattern": "30"
         },
         {
             "mode": "S3",
-            "pattern": "43"
+            "pattern": "45"
         }
         ],
         "x": 0,
@@ -2385,15 +2392,15 @@ export const opLists: Operator[] = [
         "skills": [
         {
             "mode": "S1",
-            "pattern": "44"
+            "pattern": "46"
         },
         {
             "mode": "S2",
-            "pattern": "44"
+            "pattern": "46"
         },
         {
             "mode": "S3",
-            "pattern": "44"
+            "pattern": "46"
         }
         ],
         "x": 0,
@@ -2412,15 +2419,15 @@ export const opLists: Operator[] = [
         "skills": [
         {
             "mode": "S1",
-            "pattern": "14"
-        },
-        {
-            "mode": "S2",
             "pattern": "16"
         },
         {
+            "mode": "S2",
+            "pattern": "18"
+        },
+        {
             "mode": "S3",
-            "pattern": "14"
+            "pattern": "21"
         }
         ],
         "x": 0,
@@ -2439,15 +2446,15 @@ export const opLists: Operator[] = [
         "skills": [
         {
             "mode": "S1",
-            "pattern": "14"
+            "pattern": "16"
         },
         {
             "mode": "S2",
-            "pattern": "14"
+            "pattern": "16"
         },
         {
             "mode": "S3",
-            "pattern": "14"
+            "pattern": "16"
         }
         ],
         "x": 0,
@@ -2466,15 +2473,15 @@ export const opLists: Operator[] = [
         "skills": [
         {
             "mode": "S1",
-            "pattern": "44"
+            "pattern": "46"
         },
         {
             "mode": "S2",
-            "pattern": "44"
+            "pattern": "46"
         },
         {
             "mode": "S3",
-            "pattern": "44"
+            "pattern": "46"
         }
         ],
         "x": 0,
@@ -2524,7 +2531,7 @@ export const opLists: Operator[] = [
         },
         {
             "mode": "S2",
-            "pattern": "18"
+            "pattern": "20"
         },
         {
             "mode": "S3",
@@ -2574,15 +2581,15 @@ export const opLists: Operator[] = [
         "skills": [
         {
             "mode": "S1",
-            "pattern": "45"
+            "pattern": "47"
         },
         {
             "mode": "S2",
-            "pattern": "45"
+            "pattern": "47"
         },
         {
             "mode": "S3",
-            "pattern": "46"
+            "pattern": "48"
         }
         ],
         "x": 0,
@@ -2682,15 +2689,15 @@ export const opLists: Operator[] = [
         "skills": [
         {
             "mode": "S1",
-            "pattern": "9"
+            "pattern": "10"
         },
         {
             "mode": "S2",
-            "pattern": "35"
+            "pattern": "37"
         },
         {
             "mode": "S3",
-            "pattern": "9"
+            "pattern": "10"
         }
         ],
         "x": 0,
@@ -2717,7 +2724,7 @@ export const opLists: Operator[] = [
         },
         {
             "mode": "S3",
-            "pattern": "1"
+            "pattern": "8"
         }
         ],
         "x": 0,
@@ -2763,15 +2770,15 @@ export const opLists: Operator[] = [
         "skills": [
         {
             "mode": "S1",
-            "pattern": "45"
+            "pattern": "47"
         },
         {
             "mode": "S2",
-            "pattern": "45"
+            "pattern": "47"
         },
         {
             "mode": "S3",
-            "pattern": "42"
+            "pattern": "44"
         }
         ],
         "x": 0,
@@ -2798,7 +2805,7 @@ export const opLists: Operator[] = [
         },
         {
             "mode": "S3",
-            "pattern": "16"
+            "pattern": "18"
         }
         ],
         "x": 0,
@@ -2817,15 +2824,15 @@ export const opLists: Operator[] = [
         "skills": [
         {
             "mode": "S1",
-            "pattern": "47"
+            "pattern": "49"
         },
         {
             "mode": "S2",
-            "pattern": "47"
+            "pattern": "49"
         },
         {
             "mode": "S3",
-            "pattern": "26"
+            "pattern": "28"
         }
         ],
         "x": 0,
@@ -2844,7 +2851,7 @@ export const opLists: Operator[] = [
         "skills": [
         {
             "mode": "S1",
-            "pattern": "16"
+            "pattern": "18"
         },
         {
             "mode": "S2",
@@ -2875,11 +2882,11 @@ export const opLists: Operator[] = [
         },
         {
             "mode": "S2",
-            "pattern": "16"
+            "pattern": "18"
         },
         {
             "mode": "S3",
-            "pattern": "16"
+            "pattern": "18"
         }
         ],
         "x": 0,
@@ -2902,11 +2909,11 @@ export const opLists: Operator[] = [
         },
         {
             "mode": "S2",
-            "pattern": "1"
+            "pattern": "8"
         },
         {
             "mode": "S3",
-            "pattern": "48"
+            "pattern": "50"
         }
         ],
         "x": 0,
@@ -2925,15 +2932,15 @@ export const opLists: Operator[] = [
         "skills": [
         {
             "mode": "S1",
-            "pattern": "14"
+            "pattern": "16"
         },
         {
             "mode": "S2",
-            "pattern": "14"
+            "pattern": "16"
         },
         {
             "mode": "S3",
-            "pattern": "14"
+            "pattern": "16"
         }
         ],
         "x": 0,
@@ -2952,15 +2959,15 @@ export const opLists: Operator[] = [
         "skills": [
         {
             "mode": "S1",
-            "pattern": "28"
+            "pattern": "30"
         },
         {
             "mode": "S2",
-            "pattern": "28"
+            "pattern": "30"
         },
         {
             "mode": "S3",
-            "pattern": "28"
+            "pattern": "30"
         }
         ],
         "x": 0,
@@ -3006,15 +3013,15 @@ export const opLists: Operator[] = [
         "skills": [
         {
             "mode": "S1",
-            "pattern": "26"
+            "pattern": "28"
         },
         {
             "mode": "S2",
-            "pattern": "26"
+            "pattern": "28"
         },
         {
             "mode": "S3",
-            "pattern": "26"
+            "pattern": "28"
         }
         ],
         "x": 0,
@@ -3060,15 +3067,15 @@ export const opLists: Operator[] = [
         "skills": [
         {
             "mode": "S1",
-            "pattern": "28"
+            "pattern": "30"
         },
         {
             "mode": "S2",
-            "pattern": "28"
+            "pattern": "30"
         },
         {
             "mode": "S3",
-            "pattern": "28"
+            "pattern": "30"
         }
         ],
         "x": 0,
@@ -3087,11 +3094,11 @@ export const opLists: Operator[] = [
         "skills": [
         {
             "mode": "S1",
-            "pattern": "9"
+            "pattern": "51"
         },
         {
             "mode": "S2",
-            "pattern": "23"
+            "pattern": "25"
         },
         {
             "mode": "S3",
@@ -3114,15 +3121,15 @@ export const opLists: Operator[] = [
         "skills": [
         {
             "mode": "S1",
-            "pattern": "14"
+            "pattern": "16"
         },
         {
             "mode": "S2",
-            "pattern": "14"
+            "pattern": "16"
         },
         {
             "mode": "S3",
-            "pattern": "14"
+            "pattern": "16"
         }
         ],
         "x": 0,
@@ -3141,15 +3148,15 @@ export const opLists: Operator[] = [
         "skills": [
         {
             "mode": "S1",
-            "pattern": "44"
+            "pattern": "46"
         },
         {
             "mode": "S2",
-            "pattern": "44"
+            "pattern": "46"
         },
         {
             "mode": "S3",
-            "pattern": "43"
+            "pattern": "45"
         }
         ],
         "x": 0,
@@ -3176,7 +3183,7 @@ export const opLists: Operator[] = [
         },
         {
             "mode": "S3",
-            "pattern": "22"
+            "pattern": "24"
         }
         ],
         "x": 0,
@@ -3199,7 +3206,7 @@ export const opLists: Operator[] = [
         },
         {
             "mode": "S2",
-            "pattern": "22"
+            "pattern": "24"
         }
         ],
         "x": 0,
@@ -3268,7 +3275,7 @@ export const opLists: Operator[] = [
         },
         {
             "mode": "S2",
-            "pattern": "4"
+            "pattern": "21"
         }
         ],
         "x": 0,
@@ -3475,7 +3482,7 @@ export const opLists: Operator[] = [
         },
         {
             "mode": "S2",
-            "pattern": "19"
+            "pattern": "9"
         }
         ],
         "x": 0,
@@ -3544,7 +3551,7 @@ export const opLists: Operator[] = [
         },
         {
             "mode": "S2",
-            "pattern": "16"
+            "pattern": "18"
         }
         ],
         "x": 0,
@@ -3590,7 +3597,7 @@ export const opLists: Operator[] = [
         },
         {
             "mode": "S2",
-            "pattern": "15"
+            "pattern": "17"
         }
         ],
         "x": 0,
@@ -3751,7 +3758,7 @@ export const opLists: Operator[] = [
         },
         {
             "mode": "S2",
-            "pattern": "9"
+            "pattern": "10"
         }
         ],
         "x": 0,
@@ -3774,7 +3781,7 @@ export const opLists: Operator[] = [
         },
         {
             "mode": "S2",
-            "pattern": "9"
+            "pattern": "10"
         }
         ],
         "x": 0,
@@ -3797,7 +3804,7 @@ export const opLists: Operator[] = [
         },
         {
             "mode": "S2",
-            "pattern": "14"
+            "pattern": "16"
         }
         ],
         "x": 0,
@@ -3866,7 +3873,7 @@ export const opLists: Operator[] = [
         },
         {
             "mode": "S2",
-            "pattern": "9"
+            "pattern": "10"
         }
         ],
         "x": 0,
@@ -3889,7 +3896,7 @@ export const opLists: Operator[] = [
         },
         {
             "mode": "S2",
-            "pattern": "4"
+            "pattern": "21"
         }
         ],
         "x": 0,
@@ -3977,11 +3984,11 @@ export const opLists: Operator[] = [
         "skills": [
         {
             "mode": "S1",
-            "pattern": "4"
+            "pattern": "14"
         },
         {
             "mode": "S2",
-            "pattern": "20"
+            "pattern": "22"
         }
         ],
         "x": 0,
@@ -4023,11 +4030,11 @@ export const opLists: Operator[] = [
         "skills": [
         {
             "mode": "S1",
-            "pattern": "11"
+            "pattern": "12"
         },
         {
             "mode": "S2",
-            "pattern": "11"
+            "pattern": "12"
         }
         ],
         "x": 0,
@@ -4119,7 +4126,7 @@ export const opLists: Operator[] = [
         },
         {
             "mode": "S2",
-            "pattern": "9"
+            "pattern": "10"
         }
         ],
         "x": 0,
@@ -4184,11 +4191,11 @@ export const opLists: Operator[] = [
         "skills": [
         {
             "mode": "S1",
-            "pattern": "11"
+            "pattern": "12"
         },
         {
             "mode": "S2",
-            "pattern": "11"
+            "pattern": "12"
         }
         ],
         "x": 0,
@@ -4253,7 +4260,7 @@ export const opLists: Operator[] = [
         "skills": [
         {
             "mode": "S1",
-            "pattern": "9"
+            "pattern": "10"
         },
         {
             "mode": "S2",
@@ -4276,7 +4283,7 @@ export const opLists: Operator[] = [
         "skills": [
         {
             "mode": "S1",
-            "pattern": "12"
+            "pattern": "13"
         },
         {
             "mode": "S2",
@@ -4298,8 +4305,12 @@ export const opLists: Operator[] = [
         },
         "skills": [
         {
+            "mode": "S1",
+            "pattern": "21"
+        },
+        {
             "mode": "S2",
-            "pattern": "12"
+            "pattern": "13"
         }
         ],
         "x": 0,
@@ -4318,11 +4329,11 @@ export const opLists: Operator[] = [
         "skills": [
         {
             "mode": "S1",
-            "pattern": "24"
+            "pattern": "26"
         },
         {
             "mode": "S2",
-            "pattern": "24"
+            "pattern": "26"
         }
         ],
         "x": 0,
@@ -4345,7 +4356,7 @@ export const opLists: Operator[] = [
         },
         {
             "mode": "S2",
-            "pattern": "9"
+            "pattern": "10"
         }
         ],
         "x": 0,
@@ -4361,7 +4372,16 @@ export const opLists: Operator[] = [
         "name": "defender",
         "label": "重装"
         },
-        "skills": [],
+        "skills": [
+        {
+            "mode": "S1",
+            "pattern": "21"
+        },
+        {
+            "mode": "S2",
+            "pattern": "21"
+        }
+        ],
         "x": 0,
         "y": 0,
         "facing": "E",
@@ -4378,11 +4398,11 @@ export const opLists: Operator[] = [
         "skills": [
         {
             "mode": "S1",
-            "pattern": "16"
+            "pattern": "18"
         },
         {
             "mode": "S2",
-            "pattern": "16"
+            "pattern": "18"
         }
         ],
         "x": 0,
@@ -4423,8 +4443,12 @@ export const opLists: Operator[] = [
         },
         "skills": [
         {
+            "mode": "S1",
+            "pattern": "21"
+        },
+        {
             "mode": "S2",
-            "pattern": "19"
+            "pattern": "9"
         }
         ],
         "x": 0,
@@ -4442,8 +4466,12 @@ export const opLists: Operator[] = [
         },
         "skills": [
         {
+            "mode": "S1",
+            "pattern": "21"
+        },
+        {
             "mode": "S2",
-            "pattern": "12"
+            "pattern": "13"
         }
         ],
         "x": 0,
@@ -4485,11 +4513,11 @@ export const opLists: Operator[] = [
         "skills": [
         {
             "mode": "S1",
-            "pattern": "16"
+            "pattern": "18"
         },
         {
             "mode": "S2",
-            "pattern": "16"
+            "pattern": "18"
         }
         ],
         "x": 0,
@@ -4505,7 +4533,16 @@ export const opLists: Operator[] = [
         "name": "defender",
         "label": "重装"
         },
-        "skills": [],
+        "skills": [
+        {
+            "mode": "S1",
+            "pattern": "21"
+        },
+        {
+            "mode": "S2",
+            "pattern": "21"
+        }
+        ],
         "x": 0,
         "y": 0,
         "facing": "E",
@@ -4522,11 +4559,11 @@ export const opLists: Operator[] = [
         "skills": [
         {
             "mode": "S1",
-            "pattern": "16"
+            "pattern": "18"
         },
         {
             "mode": "S2",
-            "pattern": "16"
+            "pattern": "18"
         }
         ],
         "x": 0,
@@ -4542,7 +4579,16 @@ export const opLists: Operator[] = [
         "name": "defender",
         "label": "重装"
         },
-        "skills": [],
+        "skills": [
+        {
+            "mode": "S1",
+            "pattern": "21"
+        },
+        {
+            "mode": "S2",
+            "pattern": "21"
+        }
+        ],
         "x": 0,
         "y": 0,
         "facing": "E",
@@ -4559,11 +4605,11 @@ export const opLists: Operator[] = [
         "skills": [
         {
             "mode": "S1",
-            "pattern": "24"
+            "pattern": "26"
         },
         {
             "mode": "S2",
-            "pattern": "24"
+            "pattern": "26"
         }
         ],
         "x": 0,
@@ -4579,7 +4625,16 @@ export const opLists: Operator[] = [
         "name": "defender",
         "label": "重装"
         },
-        "skills": [],
+        "skills": [
+        {
+            "mode": "S1",
+            "pattern": "21"
+        },
+        {
+            "mode": "S2",
+            "pattern": "21"
+        }
+        ],
         "x": 0,
         "y": 0,
         "facing": "E",
@@ -4596,11 +4651,11 @@ export const opLists: Operator[] = [
         "skills": [
         {
             "mode": "S1",
-            "pattern": "16"
+            "pattern": "18"
         },
         {
             "mode": "S2",
-            "pattern": "16"
+            "pattern": "18"
         }
         ],
         "x": 0,
@@ -4619,11 +4674,11 @@ export const opLists: Operator[] = [
         "skills": [
         {
             "mode": "S1",
-            "pattern": "16"
+            "pattern": "18"
         },
         {
             "mode": "S2",
-            "pattern": "19"
+            "pattern": "9"
         }
         ],
         "x": 0,
@@ -4665,11 +4720,11 @@ export const opLists: Operator[] = [
         "skills": [
         {
             "mode": "S1",
-            "pattern": "32"
+            "pattern": "34"
         },
         {
             "mode": "S2",
-            "pattern": "32"
+            "pattern": "34"
         }
         ],
         "x": 0,
@@ -4711,11 +4766,11 @@ export const opLists: Operator[] = [
         "skills": [
         {
             "mode": "S1",
-            "pattern": "26"
+            "pattern": "28"
         },
         {
             "mode": "S2",
-            "pattern": "26"
+            "pattern": "28"
         }
         ],
         "x": 0,
@@ -4734,11 +4789,11 @@ export const opLists: Operator[] = [
         "skills": [
         {
             "mode": "S1",
-            "pattern": "32"
+            "pattern": "34"
         },
         {
             "mode": "S2",
-            "pattern": "32"
+            "pattern": "34"
         }
         ],
         "x": 0,
@@ -4803,11 +4858,11 @@ export const opLists: Operator[] = [
         "skills": [
         {
             "mode": "S1",
-            "pattern": "27"
+            "pattern": "29"
         },
         {
             "mode": "S2",
-            "pattern": "27"
+            "pattern": "29"
         }
         ],
         "x": 0,
@@ -4849,11 +4904,11 @@ export const opLists: Operator[] = [
         "skills": [
         {
             "mode": "S1",
-            "pattern": "30"
+            "pattern": "32"
         },
         {
             "mode": "S2",
-            "pattern": "30"
+            "pattern": "32"
         }
         ],
         "x": 0,
@@ -4872,11 +4927,11 @@ export const opLists: Operator[] = [
         "skills": [
         {
             "mode": "S1",
-            "pattern": "25"
+            "pattern": "27"
         },
         {
             "mode": "S2",
-            "pattern": "25"
+            "pattern": "27"
         }
         ],
         "x": 0,
@@ -4895,11 +4950,11 @@ export const opLists: Operator[] = [
         "skills": [
         {
             "mode": "S1",
-            "pattern": "25"
+            "pattern": "27"
         },
         {
             "mode": "S2",
-            "pattern": "49"
+            "pattern": "52"
         }
         ],
         "x": 0,
@@ -4918,11 +4973,11 @@ export const opLists: Operator[] = [
         "skills": [
         {
             "mode": "S1",
-            "pattern": "27"
+            "pattern": "29"
         },
         {
             "mode": "S2",
-            "pattern": "27"
+            "pattern": "29"
         }
         ],
         "x": 0,
@@ -4941,11 +4996,11 @@ export const opLists: Operator[] = [
         "skills": [
         {
             "mode": "S1",
-            "pattern": "26"
+            "pattern": "28"
         },
         {
             "mode": "S2",
-            "pattern": "26"
+            "pattern": "28"
         }
         ],
         "x": 0,
@@ -4968,7 +5023,7 @@ export const opLists: Operator[] = [
         },
         {
             "mode": "S2",
-            "pattern": "25"
+            "pattern": "27"
         }
         ],
         "x": 0,
@@ -4987,11 +5042,11 @@ export const opLists: Operator[] = [
         "skills": [
         {
             "mode": "S1",
-            "pattern": "18"
+            "pattern": "20"
         },
         {
             "mode": "S2",
-            "pattern": "18"
+            "pattern": "20"
         }
         ],
         "x": 0,
@@ -5010,11 +5065,11 @@ export const opLists: Operator[] = [
         "skills": [
         {
             "mode": "S1",
-            "pattern": "25"
+            "pattern": "27"
         },
         {
             "mode": "S2",
-            "pattern": "25"
+            "pattern": "27"
         }
         ],
         "x": 0,
@@ -5033,11 +5088,11 @@ export const opLists: Operator[] = [
         "skills": [
         {
             "mode": "S1",
-            "pattern": "18"
+            "pattern": "20"
         },
         {
             "mode": "S2",
-            "pattern": "15"
+            "pattern": "17"
         }
         ],
         "x": 0,
@@ -5056,11 +5111,11 @@ export const opLists: Operator[] = [
         "skills": [
         {
             "mode": "S1",
-            "pattern": "26"
+            "pattern": "28"
         },
         {
             "mode": "S2",
-            "pattern": "26"
+            "pattern": "28"
         }
         ],
         "x": 0,
@@ -5102,11 +5157,11 @@ export const opLists: Operator[] = [
         "skills": [
         {
             "mode": "S1",
-            "pattern": "26"
+            "pattern": "28"
         },
         {
             "mode": "S2",
-            "pattern": "26"
+            "pattern": "28"
         }
         ],
         "x": 0,
@@ -5125,11 +5180,11 @@ export const opLists: Operator[] = [
         "skills": [
         {
             "mode": "S1",
-            "pattern": "15"
+            "pattern": "17"
         },
         {
             "mode": "S2",
-            "pattern": "35"
+            "pattern": "37"
         }
         ],
         "x": 0,
@@ -5148,7 +5203,7 @@ export const opLists: Operator[] = [
         "skills": [
         {
             "mode": "S1",
-            "pattern": "14"
+            "pattern": "16"
         },
         {
             "mode": "S2",
@@ -5171,11 +5226,11 @@ export const opLists: Operator[] = [
         "skills": [
         {
             "mode": "S1",
-            "pattern": "14"
+            "pattern": "16"
         },
         {
             "mode": "S2",
-            "pattern": "14"
+            "pattern": "16"
         }
         ],
         "x": 0,
@@ -5194,11 +5249,11 @@ export const opLists: Operator[] = [
         "skills": [
         {
             "mode": "S1",
-            "pattern": "34"
+            "pattern": "36"
         },
         {
             "mode": "S2",
-            "pattern": "34"
+            "pattern": "36"
         }
         ],
         "x": 0,
@@ -5217,11 +5272,11 @@ export const opLists: Operator[] = [
         "skills": [
         {
             "mode": "S1",
-            "pattern": "14"
+            "pattern": "16"
         },
         {
             "mode": "S2",
-            "pattern": "14"
+            "pattern": "16"
         }
         ],
         "x": 0,
@@ -5240,11 +5295,11 @@ export const opLists: Operator[] = [
         "skills": [
         {
             "mode": "S1",
-            "pattern": "14"
+            "pattern": "16"
         },
         {
             "mode": "S2",
-            "pattern": "14"
+            "pattern": "16"
         }
         ],
         "x": 0,
@@ -5263,11 +5318,11 @@ export const opLists: Operator[] = [
         "skills": [
         {
             "mode": "S1",
-            "pattern": "14"
+            "pattern": "16"
         },
         {
             "mode": "S2",
-            "pattern": "14"
+            "pattern": "16"
         }
         ],
         "x": 0,
@@ -5286,11 +5341,11 @@ export const opLists: Operator[] = [
         "skills": [
         {
             "mode": "S1",
-            "pattern": "14"
+            "pattern": "16"
         },
         {
             "mode": "S2",
-            "pattern": "14"
+            "pattern": "16"
         }
         ],
         "x": 0,
@@ -5309,11 +5364,11 @@ export const opLists: Operator[] = [
         "skills": [
         {
             "mode": "S1",
-            "pattern": "34"
+            "pattern": "36"
         },
         {
             "mode": "S2",
-            "pattern": "34"
+            "pattern": "36"
         }
         ],
         "x": 0,
@@ -5332,7 +5387,7 @@ export const opLists: Operator[] = [
         "skills": [
         {
             "mode": "S1",
-            "pattern": "18"
+            "pattern": "20"
         },
         {
             "mode": "S2",
@@ -5355,11 +5410,11 @@ export const opLists: Operator[] = [
         "skills": [
         {
             "mode": "S1",
-            "pattern": "18"
+            "pattern": "20"
         },
         {
             "mode": "S2",
-            "pattern": "18"
+            "pattern": "20"
         }
         ],
         "x": 0,
@@ -5378,11 +5433,11 @@ export const opLists: Operator[] = [
         "skills": [
         {
             "mode": "S1",
-            "pattern": "14"
+            "pattern": "16"
         },
         {
             "mode": "S2",
-            "pattern": "14"
+            "pattern": "16"
         }
         ],
         "x": 0,
@@ -5401,11 +5456,11 @@ export const opLists: Operator[] = [
         "skills": [
         {
             "mode": "S1",
-            "pattern": "14"
+            "pattern": "16"
         },
         {
             "mode": "S2",
-            "pattern": "14"
+            "pattern": "16"
         }
         ],
         "x": 0,
@@ -5424,11 +5479,11 @@ export const opLists: Operator[] = [
         "skills": [
         {
             "mode": "S1",
-            "pattern": "15"
+            "pattern": "17"
         },
         {
             "mode": "S2",
-            "pattern": "35"
+            "pattern": "37"
         }
         ],
         "x": 0,
@@ -5447,11 +5502,11 @@ export const opLists: Operator[] = [
         "skills": [
         {
             "mode": "S1",
-            "pattern": "4"
+            "pattern": "14"
         },
         {
             "mode": "S2",
-            "pattern": "4"
+            "pattern": "14"
         }
         ],
         "x": 0,
@@ -5470,11 +5525,11 @@ export const opLists: Operator[] = [
         "skills": [
         {
             "mode": "S1",
-            "pattern": "14"
+            "pattern": "16"
         },
         {
             "mode": "S2",
-            "pattern": "14"
+            "pattern": "16"
         }
         ],
         "x": 0,
@@ -5493,11 +5548,11 @@ export const opLists: Operator[] = [
         "skills": [
         {
             "mode": "S1",
-            "pattern": "15"
+            "pattern": "17"
         },
         {
             "mode": "S2",
-            "pattern": "35"
+            "pattern": "37"
         }
         ],
         "x": 0,
@@ -5516,7 +5571,7 @@ export const opLists: Operator[] = [
         "skills": [
         {
             "mode": "S1",
-            "pattern": "22"
+            "pattern": "24"
         },
         {
             "mode": "S2",
@@ -5539,11 +5594,11 @@ export const opLists: Operator[] = [
         "skills": [
         {
             "mode": "S1",
-            "pattern": "14"
+            "pattern": "16"
         },
         {
             "mode": "S2",
-            "pattern": "14"
+            "pattern": "16"
         }
         ],
         "x": 0,
@@ -5562,7 +5617,7 @@ export const opLists: Operator[] = [
         "skills": [
         {
             "mode": "S1",
-            "pattern": "22"
+            "pattern": "24"
         },
         {
             "mode": "S2",
@@ -5585,11 +5640,11 @@ export const opLists: Operator[] = [
         "skills": [
         {
             "mode": "S1",
-            "pattern": "14"
+            "pattern": "16"
         },
         {
             "mode": "S2",
-            "pattern": "14"
+            "pattern": "16"
         }
         ],
         "x": 0,
@@ -5608,7 +5663,7 @@ export const opLists: Operator[] = [
         "skills": [
         {
             "mode": "S1",
-            "pattern": "18"
+            "pattern": "20"
         },
         {
             "mode": "S2",
@@ -5631,11 +5686,11 @@ export const opLists: Operator[] = [
         "skills": [
         {
             "mode": "S1",
-            "pattern": "14"
+            "pattern": "16"
         },
         {
             "mode": "S2",
-            "pattern": "14"
+            "pattern": "16"
         }
         ],
         "x": 0,
@@ -5654,11 +5709,11 @@ export const opLists: Operator[] = [
         "skills": [
         {
             "mode": "S1",
-            "pattern": "14"
+            "pattern": "16"
         },
         {
             "mode": "S2",
-            "pattern": "18"
+            "pattern": "20"
         }
         ],
         "x": 0,
@@ -5723,11 +5778,11 @@ export const opLists: Operator[] = [
         "skills": [
         {
             "mode": "S1",
-            "pattern": "40"
+            "pattern": "42"
         },
         {
             "mode": "S2",
-            "pattern": "40"
+            "pattern": "42"
         }
         ],
         "x": 0,
@@ -5750,7 +5805,7 @@ export const opLists: Operator[] = [
         },
         {
             "mode": "S2",
-            "pattern": "16"
+            "pattern": "18"
         }
         ],
         "x": 0,
@@ -5769,11 +5824,11 @@ export const opLists: Operator[] = [
         "skills": [
         {
             "mode": "S1",
-            "pattern": "40"
+            "pattern": "42"
         },
         {
             "mode": "S2",
-            "pattern": "40"
+            "pattern": "42"
         }
         ],
         "x": 0,
@@ -5815,11 +5870,11 @@ export const opLists: Operator[] = [
         "skills": [
         {
             "mode": "S1",
-            "pattern": "40"
+            "pattern": "42"
         },
         {
             "mode": "S2",
-            "pattern": "40"
+            "pattern": "42"
         }
         ],
         "x": 0,
@@ -5838,11 +5893,11 @@ export const opLists: Operator[] = [
         "skills": [
         {
             "mode": "S1",
-            "pattern": "41"
+            "pattern": "43"
         },
         {
             "mode": "S2",
-            "pattern": "41"
+            "pattern": "43"
         }
         ],
         "x": 0,
@@ -5861,11 +5916,11 @@ export const opLists: Operator[] = [
         "skills": [
         {
             "mode": "S1",
-            "pattern": "28"
+            "pattern": "30"
         },
         {
             "mode": "S2",
-            "pattern": "28"
+            "pattern": "30"
         }
         ],
         "x": 0,
@@ -5884,11 +5939,11 @@ export const opLists: Operator[] = [
         "skills": [
         {
             "mode": "S1",
-            "pattern": "28"
+            "pattern": "30"
         },
         {
             "mode": "S2",
-            "pattern": "28"
+            "pattern": "30"
         }
         ],
         "x": 0,
@@ -5907,11 +5962,11 @@ export const opLists: Operator[] = [
         "skills": [
         {
             "mode": "S1",
-            "pattern": "41"
+            "pattern": "43"
         },
         {
             "mode": "S2",
-            "pattern": "41"
+            "pattern": "43"
         }
         ],
         "x": 0,
@@ -5930,11 +5985,11 @@ export const opLists: Operator[] = [
         "skills": [
         {
             "mode": "S1",
-            "pattern": "28"
+            "pattern": "30"
         },
         {
             "mode": "S2",
-            "pattern": "29"
+            "pattern": "31"
         }
         ],
         "x": 0,
@@ -5953,7 +6008,7 @@ export const opLists: Operator[] = [
         "skills": [
         {
             "mode": "S1",
-            "pattern": "37"
+            "pattern": "39"
         },
         {
             "mode": "S2",
@@ -5976,11 +6031,11 @@ export const opLists: Operator[] = [
         "skills": [
         {
             "mode": "S1",
-            "pattern": "28"
+            "pattern": "30"
         },
         {
             "mode": "S2",
-            "pattern": "28"
+            "pattern": "30"
         }
         ],
         "x": 0,
@@ -5999,11 +6054,11 @@ export const opLists: Operator[] = [
         "skills": [
         {
             "mode": "S1",
-            "pattern": "41"
+            "pattern": "43"
         },
         {
             "mode": "S2",
-            "pattern": "41"
+            "pattern": "43"
         }
         ],
         "x": 0,
@@ -6022,11 +6077,11 @@ export const opLists: Operator[] = [
         "skills": [
         {
             "mode": "S1",
-            "pattern": "28"
+            "pattern": "30"
         },
         {
             "mode": "S2",
-            "pattern": "28"
+            "pattern": "30"
         }
         ],
         "x": 0,
@@ -6091,11 +6146,11 @@ export const opLists: Operator[] = [
         "skills": [
         {
             "mode": "S1",
-            "pattern": "28"
+            "pattern": "30"
         },
         {
             "mode": "S2",
-            "pattern": "22"
+            "pattern": "24"
         }
         ],
         "x": 0,
@@ -6114,11 +6169,11 @@ export const opLists: Operator[] = [
         "skills": [
         {
             "mode": "S1",
-            "pattern": "28"
+            "pattern": "30"
         },
         {
             "mode": "S2",
-            "pattern": "28"
+            "pattern": "30"
         }
         ],
         "x": 0,
@@ -6137,7 +6192,7 @@ export const opLists: Operator[] = [
         "skills": [
         {
             "mode": "S1",
-            "pattern": "16"
+            "pattern": "18"
         },
         {
             "mode": "S2",
@@ -6183,11 +6238,11 @@ export const opLists: Operator[] = [
         "skills": [
         {
             "mode": "S1",
-            "pattern": "44"
+            "pattern": "46"
         },
         {
             "mode": "S2",
-            "pattern": "44"
+            "pattern": "46"
         }
         ],
         "x": 0,
@@ -6206,11 +6261,11 @@ export const opLists: Operator[] = [
         "skills": [
         {
             "mode": "S1",
-            "pattern": "28"
+            "pattern": "30"
         },
         {
             "mode": "S2",
-            "pattern": "50"
+            "pattern": "53"
         }
         ],
         "x": 0,
@@ -6229,11 +6284,11 @@ export const opLists: Operator[] = [
         "skills": [
         {
             "mode": "S1",
-            "pattern": "28"
+            "pattern": "30"
         },
         {
             "mode": "S2",
-            "pattern": "28"
+            "pattern": "30"
         }
         ],
         "x": 0,
@@ -6252,11 +6307,11 @@ export const opLists: Operator[] = [
         "skills": [
         {
             "mode": "S1",
-            "pattern": "14"
+            "pattern": "16"
         },
         {
             "mode": "S2",
-            "pattern": "14"
+            "pattern": "16"
         }
         ],
         "x": 0,
@@ -6275,11 +6330,11 @@ export const opLists: Operator[] = [
         "skills": [
         {
             "mode": "S1",
-            "pattern": "44"
+            "pattern": "46"
         },
         {
             "mode": "S2",
-            "pattern": "44"
+            "pattern": "46"
         }
         ],
         "x": 0,
@@ -6292,17 +6347,17 @@ export const opLists: Operator[] = [
         "rare": 5,
         "name": "シャマレ",
         "class": {
-        "name": "supporter",
-        "label": "補助"
+        "name": "女",
+        "label": "女"
         },
         "skills": [
         {
             "mode": "S1",
-            "pattern": "44"
+            "pattern": "46"
         },
         {
             "mode": "S2",
-            "pattern": "16"
+            "pattern": "18"
         }
         ],
         "x": 0,
@@ -6321,11 +6376,11 @@ export const opLists: Operator[] = [
         "skills": [
         {
             "mode": "S1",
-            "pattern": "14"
+            "pattern": "16"
         },
         {
             "mode": "S2",
-            "pattern": "14"
+            "pattern": "16"
         }
         ],
         "x": 0,
@@ -6344,7 +6399,7 @@ export const opLists: Operator[] = [
         "skills": [
         {
             "mode": "S1",
-            "pattern": "51"
+            "pattern": "54"
         },
         {
             "mode": "S2",
@@ -6367,11 +6422,11 @@ export const opLists: Operator[] = [
         "skills": [
         {
             "mode": "S1",
-            "pattern": "44"
+            "pattern": "46"
         },
         {
             "mode": "S2",
-            "pattern": "44"
+            "pattern": "46"
         }
         ],
         "x": 0,
@@ -6413,11 +6468,11 @@ export const opLists: Operator[] = [
         "skills": [
         {
             "mode": "S1",
-            "pattern": "44"
+            "pattern": "46"
         },
         {
             "mode": "S2",
-            "pattern": "44"
+            "pattern": "46"
         }
         ],
         "x": 0,
@@ -6436,11 +6491,11 @@ export const opLists: Operator[] = [
         "skills": [
         {
             "mode": "S1",
-            "pattern": "28"
+            "pattern": "30"
         },
         {
             "mode": "S2",
-            "pattern": "28"
+            "pattern": "30"
         }
         ],
         "x": 0,
@@ -6459,11 +6514,11 @@ export const opLists: Operator[] = [
         "skills": [
         {
             "mode": "S1",
-            "pattern": "28"
+            "pattern": "30"
         },
         {
             "mode": "S2",
-            "pattern": "28"
+            "pattern": "30"
         }
         ],
         "x": 0,
@@ -6482,11 +6537,11 @@ export const opLists: Operator[] = [
         "skills": [
         {
             "mode": "S1",
-            "pattern": "14"
+            "pattern": "16"
         },
         {
             "mode": "S2",
-            "pattern": "14"
+            "pattern": "16"
         }
         ],
         "x": 0,
@@ -6505,11 +6560,11 @@ export const opLists: Operator[] = [
         "skills": [
         {
             "mode": "S1",
-            "pattern": "44"
+            "pattern": "46"
         },
         {
             "mode": "S2",
-            "pattern": "44"
+            "pattern": "46"
         }
         ],
         "x": 0,
@@ -6528,11 +6583,11 @@ export const opLists: Operator[] = [
         "skills": [
         {
             "mode": "S1",
-            "pattern": "44"
+            "pattern": "46"
         },
         {
             "mode": "S2",
-            "pattern": "44"
+            "pattern": "46"
         }
         ],
         "x": 0,
@@ -6597,11 +6652,11 @@ export const opLists: Operator[] = [
         "skills": [
         {
             "mode": "S1",
-            "pattern": "9"
+            "pattern": "10"
         },
         {
             "mode": "S2",
-            "pattern": "9"
+            "pattern": "10"
         }
         ],
         "x": 0,
@@ -6647,7 +6702,7 @@ export const opLists: Operator[] = [
         },
         {
             "mode": "S2",
-            "pattern": "15"
+            "pattern": "17"
         }
         ],
         "x": 0,
@@ -6712,11 +6767,11 @@ export const opLists: Operator[] = [
         "skills": [
         {
             "mode": "S1",
-            "pattern": "19"
+            "pattern": "9"
         },
         {
             "mode": "S2",
-            "pattern": "49"
+            "pattern": "52"
         }
         ],
         "x": 0,
@@ -6735,11 +6790,11 @@ export const opLists: Operator[] = [
         "skills": [
         {
             "mode": "S1",
-            "pattern": "45"
+            "pattern": "47"
         },
         {
             "mode": "S2",
-            "pattern": "45"
+            "pattern": "47"
         }
         ],
         "x": 0,
@@ -6758,11 +6813,11 @@ export const opLists: Operator[] = [
         "skills": [
         {
             "mode": "S1",
-            "pattern": "9"
+            "pattern": "10"
         },
         {
             "mode": "S2",
-            "pattern": "35"
+            "pattern": "37"
         }
         ],
         "x": 0,
@@ -6781,11 +6836,11 @@ export const opLists: Operator[] = [
         "skills": [
         {
             "mode": "S1",
-            "pattern": "9"
+            "pattern": "10"
         },
         {
             "mode": "S2",
-            "pattern": "9"
+            "pattern": "10"
         }
         ],
         "x": 0,
@@ -6850,11 +6905,11 @@ export const opLists: Operator[] = [
         "skills": [
         {
             "mode": "S1",
-            "pattern": "47"
+            "pattern": "49"
         },
         {
             "mode": "S2",
-            "pattern": "47"
+            "pattern": "49"
         }
         ],
         "x": 0,
@@ -6896,11 +6951,11 @@ export const opLists: Operator[] = [
         "skills": [
         {
             "mode": "S1",
-            "pattern": "45"
+            "pattern": "47"
         },
         {
             "mode": "S2",
-            "pattern": "45"
+            "pattern": "47"
         }
         ],
         "x": 0,
@@ -6923,7 +6978,7 @@ export const opLists: Operator[] = [
         },
         {
             "mode": "S2",
-            "pattern": "19"
+            "pattern": "9"
         }
         ],
         "x": 0,
@@ -6969,7 +7024,7 @@ export const opLists: Operator[] = [
         },
         {
             "mode": "S2",
-            "pattern": "16"
+            "pattern": "18"
         }
         ],
         "x": 0,
@@ -6992,7 +7047,7 @@ export const opLists: Operator[] = [
         },
         {
             "mode": "S2",
-            "pattern": "19"
+            "pattern": "9"
         }
         ],
         "x": 0,
@@ -7011,11 +7066,11 @@ export const opLists: Operator[] = [
         "skills": [
         {
             "mode": "S1",
-            "pattern": "29"
+            "pattern": "31"
         },
         {
             "mode": "S2",
-            "pattern": "29"
+            "pattern": "31"
         }
         ],
         "x": 0,
@@ -7061,7 +7116,7 @@ export const opLists: Operator[] = [
         },
         {
             "mode": "S2",
-            "pattern": "16"
+            "pattern": "18"
         }
         ],
         "x": 0,
@@ -7080,11 +7135,11 @@ export const opLists: Operator[] = [
         "skills": [
         {
             "mode": "S1",
-            "pattern": "20"
+            "pattern": "22"
         },
         {
             "mode": "S2",
-            "pattern": "45"
+            "pattern": "47"
         }
         ],
         "x": 0,
@@ -7103,11 +7158,11 @@ export const opLists: Operator[] = [
         "skills": [
         {
             "mode": "S1",
-            "pattern": "14"
+            "pattern": "16"
         },
         {
             "mode": "S2",
-            "pattern": "14"
+            "pattern": "16"
         }
         ],
         "x": 0,
@@ -7149,11 +7204,11 @@ export const opLists: Operator[] = [
         "skills": [
         {
             "mode": "S1",
-            "pattern": "32"
+            "pattern": "34"
         },
         {
             "mode": "S2",
-            "pattern": "32"
+            "pattern": "34"
         }
         ],
         "x": 0,
@@ -7264,11 +7319,11 @@ export const opLists: Operator[] = [
         "skills": [
         {
             "mode": "S1",
-            "pattern": "18"
+            "pattern": "20"
         },
         {
             "mode": "S2",
-            "pattern": "18"
+            "pattern": "20"
         }
         ],
         "x": 0,
@@ -7383,7 +7438,7 @@ export const opLists: Operator[] = [
         },
         {
             "mode": "S2",
-            "pattern": "16"
+            "pattern": "18"
         }
         ],
         "x": 0,
@@ -7429,7 +7484,7 @@ export const opLists: Operator[] = [
         },
         {
             "mode": "S2",
-            "pattern": "14"
+            "pattern": "16"
         }
         ],
         "x": 0,
@@ -7632,11 +7687,11 @@ export const opLists: Operator[] = [
         "skills": [
         {
             "mode": "S1",
-            "pattern": "11"
+            "pattern": "12"
         },
         {
             "mode": "S2",
-            "pattern": "11"
+            "pattern": "12"
         }
         ],
         "x": 0,
@@ -7724,7 +7779,7 @@ export const opLists: Operator[] = [
         "skills": [
         {
             "mode": "S1",
-            "pattern": "19"
+            "pattern": "9"
         },
         {
             "mode": "S2",
@@ -7744,7 +7799,16 @@ export const opLists: Operator[] = [
         "name": "defender",
         "label": "重装"
         },
-        "skills": [],
+        "skills": [
+        {
+            "mode": "S1",
+            "pattern": "21"
+        },
+        {
+            "mode": "S2",
+            "pattern": "21"
+        }
+        ],
         "x": 0,
         "y": 0,
         "facing": "E",
@@ -7761,11 +7825,11 @@ export const opLists: Operator[] = [
         "skills": [
         {
             "mode": "S1",
-            "pattern": "16"
+            "pattern": "18"
         },
         {
             "mode": "S2",
-            "pattern": "16"
+            "pattern": "18"
         }
         ],
         "x": 0,
@@ -7781,7 +7845,16 @@ export const opLists: Operator[] = [
         "name": "defender",
         "label": "重装"
         },
-        "skills": [],
+        "skills": [
+        {
+            "mode": "S1",
+            "pattern": "21"
+        },
+        {
+            "mode": "S2",
+            "pattern": "21"
+        }
+        ],
         "x": 0,
         "y": 0,
         "facing": "E",
@@ -7795,7 +7868,16 @@ export const opLists: Operator[] = [
         "name": "defender",
         "label": "重装"
         },
-        "skills": [],
+        "skills": [
+        {
+            "mode": "S1",
+            "pattern": "21"
+        },
+        {
+            "mode": "S2",
+            "pattern": "21"
+        }
+        ],
         "x": 0,
         "y": 0,
         "facing": "E",
@@ -7809,7 +7891,16 @@ export const opLists: Operator[] = [
         "name": "defender",
         "label": "重装"
         },
-        "skills": [],
+        "skills": [
+        {
+            "mode": "S1",
+            "pattern": "21"
+        },
+        {
+            "mode": "S2",
+            "pattern": "21"
+        }
+        ],
         "x": 0,
         "y": 0,
         "facing": "E",
@@ -7825,8 +7916,12 @@ export const opLists: Operator[] = [
         },
         "skills": [
         {
+            "mode": "S1",
+            "pattern": "21"
+        },
+        {
             "mode": "S2",
-            "pattern": "16"
+            "pattern": "18"
         }
         ],
         "x": 0,
@@ -7845,11 +7940,11 @@ export const opLists: Operator[] = [
         "skills": [
         {
             "mode": "S1",
-            "pattern": "18"
+            "pattern": "20"
         },
         {
             "mode": "S2",
-            "pattern": "18"
+            "pattern": "20"
         }
         ],
         "x": 0,
@@ -7868,11 +7963,11 @@ export const opLists: Operator[] = [
         "skills": [
         {
             "mode": "S1",
-            "pattern": "25"
+            "pattern": "27"
         },
         {
             "mode": "S2",
-            "pattern": "26"
+            "pattern": "28"
         }
         ],
         "x": 0,
@@ -7914,11 +8009,11 @@ export const opLists: Operator[] = [
         "skills": [
         {
             "mode": "S1",
-            "pattern": "29"
+            "pattern": "31"
         },
         {
             "mode": "S2",
-            "pattern": "29"
+            "pattern": "31"
         }
         ],
         "x": 0,
@@ -7960,11 +8055,11 @@ export const opLists: Operator[] = [
         "skills": [
         {
             "mode": "S1",
-            "pattern": "52"
+            "pattern": "55"
         },
         {
             "mode": "S2",
-            "pattern": "25"
+            "pattern": "27"
         }
         ],
         "x": 0,
@@ -7983,11 +8078,11 @@ export const opLists: Operator[] = [
         "skills": [
         {
             "mode": "S1",
-            "pattern": "27"
+            "pattern": "29"
         },
         {
             "mode": "S2",
-            "pattern": "27"
+            "pattern": "29"
         }
         ],
         "x": 0,
@@ -8006,11 +8101,11 @@ export const opLists: Operator[] = [
         "skills": [
         {
             "mode": "S1",
-            "pattern": "32"
+            "pattern": "34"
         },
         {
             "mode": "S2",
-            "pattern": "11"
+            "pattern": "12"
         }
         ],
         "x": 0,
@@ -8075,11 +8170,11 @@ export const opLists: Operator[] = [
         "skills": [
         {
             "mode": "S1",
-            "pattern": "15"
+            "pattern": "17"
         },
         {
             "mode": "S2",
-            "pattern": "35"
+            "pattern": "37"
         }
         ],
         "x": 0,
@@ -8098,7 +8193,7 @@ export const opLists: Operator[] = [
         "skills": [
         {
             "mode": "S1",
-            "pattern": "14"
+            "pattern": "16"
         },
         {
             "mode": "S2",
@@ -8121,7 +8216,7 @@ export const opLists: Operator[] = [
         "skills": [
         {
             "mode": "S1",
-            "pattern": "18"
+            "pattern": "20"
         },
         {
             "mode": "S2",
@@ -8144,11 +8239,11 @@ export const opLists: Operator[] = [
         "skills": [
         {
             "mode": "S1",
-            "pattern": "18"
+            "pattern": "20"
         },
         {
             "mode": "S2",
-            "pattern": "18"
+            "pattern": "20"
         }
         ],
         "x": 0,
@@ -8167,11 +8262,11 @@ export const opLists: Operator[] = [
         "skills": [
         {
             "mode": "S1",
-            "pattern": "14"
+            "pattern": "16"
         },
         {
             "mode": "S2",
-            "pattern": "14"
+            "pattern": "16"
         }
         ],
         "x": 0,
@@ -8190,11 +8285,11 @@ export const opLists: Operator[] = [
         "skills": [
         {
             "mode": "S1",
-            "pattern": "14"
+            "pattern": "16"
         },
         {
             "mode": "S2",
-            "pattern": "14"
+            "pattern": "16"
         }
         ],
         "x": 0,
@@ -8259,11 +8354,11 @@ export const opLists: Operator[] = [
         "skills": [
         {
             "mode": "S1",
-            "pattern": "40"
+            "pattern": "42"
         },
         {
             "mode": "S2",
-            "pattern": "40"
+            "pattern": "42"
         }
         ],
         "x": 0,
@@ -8282,11 +8377,11 @@ export const opLists: Operator[] = [
         "skills": [
         {
             "mode": "S1",
-            "pattern": "41"
+            "pattern": "43"
         },
         {
             "mode": "S2",
-            "pattern": "9"
+            "pattern": "10"
         }
         ],
         "x": 0,
@@ -8305,11 +8400,11 @@ export const opLists: Operator[] = [
         "skills": [
         {
             "mode": "S1",
-            "pattern": "28"
+            "pattern": "30"
         },
         {
             "mode": "S2",
-            "pattern": "28"
+            "pattern": "30"
         }
         ],
         "x": 0,
@@ -8351,11 +8446,11 @@ export const opLists: Operator[] = [
         "skills": [
         {
             "mode": "S1",
-            "pattern": "28"
+            "pattern": "30"
         },
         {
             "mode": "S2",
-            "pattern": "28"
+            "pattern": "30"
         }
         ],
         "x": 0,
@@ -8374,11 +8469,11 @@ export const opLists: Operator[] = [
         "skills": [
         {
             "mode": "S1",
-            "pattern": "14"
+            "pattern": "16"
         },
         {
             "mode": "S2",
-            "pattern": "14"
+            "pattern": "16"
         }
         ],
         "x": 0,
@@ -8397,11 +8492,11 @@ export const opLists: Operator[] = [
         "skills": [
         {
             "mode": "S1",
-            "pattern": "28"
+            "pattern": "30"
         },
         {
             "mode": "S2",
-            "pattern": "28"
+            "pattern": "30"
         }
         ],
         "x": 0,
@@ -8443,11 +8538,11 @@ export const opLists: Operator[] = [
         "skills": [
         {
             "mode": "S1",
-            "pattern": "45"
+            "pattern": "47"
         },
         {
             "mode": "S2",
-            "pattern": "45"
+            "pattern": "47"
         }
         ],
         "x": 0,
@@ -8512,11 +8607,11 @@ export const opLists: Operator[] = [
         "skills": [
         {
             "mode": "S1",
-            "pattern": "20"
+            "pattern": "22"
         },
         {
             "mode": "S2",
-            "pattern": "14"
+            "pattern": "16"
         }
         ],
         "x": 0,
@@ -8539,7 +8634,7 @@ export const opLists: Operator[] = [
         },
         {
             "mode": "S2",
-            "pattern": "16"
+            "pattern": "18"
         }
         ],
         "x": 0,
@@ -8581,11 +8676,11 @@ export const opLists: Operator[] = [
         "skills": [
         {
             "mode": "S1",
-            "pattern": "9"
+            "pattern": "10"
         },
         {
             "mode": "S2",
-            "pattern": "15"
+            "pattern": "17"
         }
         ],
         "x": 0,
@@ -8604,11 +8699,11 @@ export const opLists: Operator[] = [
         "skills": [
         {
             "mode": "S1",
-            "pattern": "4"
+            "pattern": "14"
         },
         {
             "mode": "S2",
-            "pattern": "20"
+            "pattern": "22"
         }
         ],
         "x": 0,
@@ -8738,7 +8833,12 @@ export const opLists: Operator[] = [
         "name": "defender",
         "label": "重装"
         },
-        "skills": [],
+        "skills": [
+        {
+            "mode": "S1",
+            "pattern": "21"
+        }
+        ],
         "x": 0,
         "y": 0,
         "facing": "E",
@@ -8755,7 +8855,7 @@ export const opLists: Operator[] = [
         "skills": [
         {
             "mode": "S1",
-            "pattern": "16"
+            "pattern": "18"
         }
         ],
         "x": 0,
@@ -8771,7 +8871,12 @@ export const opLists: Operator[] = [
         "name": "defender",
         "label": "重装"
         },
-        "skills": [],
+        "skills": [
+        {
+            "mode": "S1",
+            "pattern": "21"
+        }
+        ],
         "x": 0,
         "y": 0,
         "facing": "E",
@@ -8807,7 +8912,7 @@ export const opLists: Operator[] = [
         "skills": [
         {
             "mode": "S1",
-            "pattern": "37"
+            "pattern": "39"
         }
         ],
         "x": 0,
@@ -8845,7 +8950,7 @@ export const opLists: Operator[] = [
         "skills": [
         {
             "mode": "S1",
-            "pattern": "14"
+            "pattern": "16"
         }
         ],
         "x": 0,
@@ -8864,7 +8969,7 @@ export const opLists: Operator[] = [
         "skills": [
         {
             "mode": "S1",
-            "pattern": "18"
+            "pattern": "20"
         }
         ],
         "x": 0,
@@ -8883,7 +8988,7 @@ export const opLists: Operator[] = [
         "skills": [
         {
             "mode": "S1",
-            "pattern": "37"
+            "pattern": "39"
         }
         ],
         "x": 0,
@@ -8921,7 +9026,7 @@ export const opLists: Operator[] = [
         "skills": [
         {
             "mode": "S1",
-            "pattern": "28"
+            "pattern": "30"
         }
         ],
         "x": 0,
@@ -8937,7 +9042,12 @@ export const opLists: Operator[] = [
         "name": "vanguard",
         "label": "先鋒"
         },
-        "skills": [],
+        "skills": [
+        {
+            "mode": "S1",
+            "pattern": "4"
+        }
+        ],
         "x": 0,
         "y": 0,
         "facing": "E",
@@ -8951,7 +9061,12 @@ export const opLists: Operator[] = [
         "name": "defender",
         "label": "重装"
         },
-        "skills": [],
+        "skills": [
+        {
+            "mode": "S1",
+            "pattern": "21"
+        }
+        ],
         "x": 0,
         "y": 0,
         "facing": "E",
@@ -8965,7 +9080,12 @@ export const opLists: Operator[] = [
         "name": "sniper",
         "label": "狙撃"
         },
-        "skills": [],
+        "skills": [
+        {
+            "mode": "S1",
+            "pattern": "3"
+        }
+        ],
         "x": 0,
         "y": 0,
         "facing": "E",
@@ -8979,7 +9099,12 @@ export const opLists: Operator[] = [
         "name": "caster",
         "label": "術師"
         },
-        "skills": [],
+        "skills": [
+        {
+            "mode": "S1",
+            "pattern": "16"
+        }
+        ],
         "x": 0,
         "y": 0,
         "facing": "E",
@@ -8993,7 +9118,12 @@ export const opLists: Operator[] = [
         "name": "medic",
         "label": "医療"
         },
-        "skills": [],
+        "skills": [
+        {
+            "mode": "S1",
+            "pattern": "3"
+        }
+        ],
         "x": 0,
         "y": 0,
         "facing": "E",
@@ -9007,7 +9137,12 @@ export const opLists: Operator[] = [
         "name": "vanguard",
         "label": "先鋒"
         },
-        "skills": [],
+        "skills": [
+        {
+            "mode": "S1",
+            "pattern": "4"
+        }
+        ],
         "x": 0,
         "y": 0,
         "facing": "E",
@@ -9021,7 +9156,12 @@ export const opLists: Operator[] = [
         "name": "defender",
         "label": "重装"
         },
-        "skills": [],
+        "skills": [
+        {
+            "mode": "S1",
+            "pattern": "21"
+        }
+        ],
         "x": 0,
         "y": 0,
         "facing": "E",
@@ -9035,7 +9175,12 @@ export const opLists: Operator[] = [
         "name": "sniper",
         "label": "狙撃"
         },
-        "skills": [],
+        "skills": [
+        {
+            "mode": "S1",
+            "pattern": "16"
+        }
+        ],
         "x": 0,
         "y": 0,
         "facing": "E",
@@ -9049,7 +9194,12 @@ export const opLists: Operator[] = [
         "name": "caster",
         "label": "術師"
         },
-        "skills": [],
+        "skills": [
+        {
+            "mode": "S1",
+            "pattern": "22"
+        }
+        ],
         "x": 0,
         "y": 0,
         "facing": "E",
@@ -9063,7 +9213,12 @@ export const opLists: Operator[] = [
         "name": "caster",
         "label": "術師"
         },
-        "skills": [],
+        "skills": [
+        {
+            "mode": "S1",
+            "pattern": "20"
+        }
+        ],
         "x": 0,
         "y": 0,
         "facing": "E",
@@ -9077,7 +9232,12 @@ export const opLists: Operator[] = [
         "name": "guard",
         "label": "前衛"
         },
-        "skills": [],
+        "skills": [
+        {
+            "mode": "S1",
+            "pattern": "4"
+        }
+        ],
         "x": 0,
         "y": 0,
         "facing": "E",
@@ -9091,7 +9251,12 @@ export const opLists: Operator[] = [
         "name": "defender",
         "label": "重装"
         },
-        "skills": [],
+        "skills": [
+        {
+            "mode": "S1",
+            "pattern": "21"
+        }
+        ],
         "x": 0,
         "y": 0,
         "facing": "E",
@@ -9105,7 +9270,12 @@ export const opLists: Operator[] = [
         "name": "sniper",
         "label": "狙撃"
         },
-        "skills": [],
+        "skills": [
+        {
+            "mode": "S1",
+            "pattern": "16"
+        }
+        ],
         "x": 0,
         "y": 0,
         "facing": "E",
@@ -9119,7 +9289,12 @@ export const opLists: Operator[] = [
         "name": "sniper",
         "label": "狙撃"
         },
-        "skills": [],
+        "skills": [
+        {
+            "mode": "S1",
+            "pattern": "3"
+        }
+        ],
         "x": 0,
         "y": 0,
         "facing": "E",
@@ -9133,7 +9308,12 @@ export const opLists: Operator[] = [
         "name": "medic",
         "label": "医療"
         },
-        "skills": [],
+        "skills": [
+        {
+            "mode": "S1",
+            "pattern": "16"
+        }
+        ],
         "x": 0,
         "y": 0,
         "facing": "E",
@@ -9147,7 +9327,12 @@ export const opLists: Operator[] = [
         "name": "supporter",
         "label": "補助"
         },
-        "skills": [],
+        "skills": [
+        {
+            "mode": "S1",
+            "pattern": "30"
+        }
+        ],
         "x": 0,
         "y": 0,
         "facing": "E",
@@ -9161,7 +9346,12 @@ export const opLists: Operator[] = [
         "name": "supporter",
         "label": "補助"
         },
-        "skills": [],
+        "skills": [
+        {
+            "mode": "S1",
+            "pattern": "18"
+        }
+        ],
         "x": 0,
         "y": 0,
         "facing": "E",
@@ -9175,7 +9365,12 @@ export const opLists: Operator[] = [
         "name": "specialist",
         "label": "特殊"
         },
-        "skills": [],
+        "skills": [
+        {
+            "mode": "S1",
+            "pattern": "18"
+        }
+        ],
         "x": 0,
         "y": 0,
         "facing": "E",
@@ -9189,43 +9384,15 @@ export const opLists: Operator[] = [
         "name": "vanguard",
         "label": "先鋒"
         },
-        "skills": [],
+        "skills": [
+        {
+            "mode": "S1",
+            "pattern": "4"
+        }
+        ],
         "x": 0,
         "y": 0,
         "facing": "E",
         "skillIdx": 0
     }
-    ]
-
-    // export const opLists: Operator[] = [
-//         {
-//             id: 1,
-//             name: 'オペレーター1',
-//             type: { name: 'vanguard', label: '前衛'},
-//             skills: [{ mode: "S1", pattern: "line:1"},{ mode: "S2", pattern: "line:2"}, { mode: "S3", pattern: "line:3"}],
-//             x: 0,
-//             y: 0,
-//             facing: 'N',
-//             skillIdx: 0 
-//     },
-//     {
-//         id: 2,
-//         name: 'オペレーター2',
-//         type: { name: 'sniper', label: '狙撃'},
-//         skills: [{ mode: "S1", pattern: "line:3"},{ mode: "S2", pattern: "line:3"}, { mode: "S3", pattern: "line:3"}],
-//         x: 0,
-//         y: 0,
-//         facing: 'N',
-//         skillIdx: 0 
-//     },
-//     {
-//         id: 3,
-//         name: 'オペレーター3',
-//         type: { name: 'caster', label: '術師'},
-//         skills: [{ mode: "S1", pattern: "diamond:2"},{ mode: "S2", pattern: "diamond:2"}, { mode: "S3", pattern: "diamond:3"}],
-//         x: 0,
-//         y: 0,
-//         facing: 'N',
-//         skillIdx: 0 
-//     }
-// ]
+]
