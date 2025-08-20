@@ -84,20 +84,6 @@ async function fetchOperatorLinks(){
   return [...hrefs];
 }
 
-function getE2GridFromHeaderRows($){
-  let e2 = null;
-  $('table > thead > tr').each((_, tr) => {
-    const $tr = $(tr);
-    const firstThText = ($tr.find('th').eq(0).text() || '').trim();
-    if (!/(昇進\s*2|E2|通常攻撃)/i.test(firstThText)) return;
-
-    const html = $tr.find('th').eq(3).html() || "";
-    const lines = extractDiagramFromHTML(html);
-    if (lines) { e2 = lines; return false; } // 最初に見つかったものを採用
-  });
-  return e2; // 無ければ null
-}
-
 /* ---------- 基本情報 ---------- */
 function extractName($){
   return ($("#firstHeading").text() || $("h1").first().text() || "").trim();
@@ -141,7 +127,7 @@ function extractDiagramFromHTML(innerHTML){
   // span 内の「□」→ 全角スペース
   frag("span").each((_,sp)=>{
     const h = frag(sp).html() ?? "";
-    frag(sp).html(h.replace(/□/g, "　"));
+    frag(sp).html(h.replaceAll(/□/g, "　"));
   });
 
   // <br> → 改行
@@ -153,8 +139,9 @@ function extractDiagramFromHTML(innerHTML){
   // X 系は全角スペース（列保持）
   text = text.replace(/[Xx×✕╳Ｘｘ]/g, "　");
 
-  // &nbsp; → 半角空白
-  text = text.replace(/\u00A0/g, " ");
+  // &nbsp; , &emsp; → 全角空白
+  text = text.replace(/\u00A0/g, "　");
+  text = text.replace(/\u2003/g, "　");
 
   // 許可文字のみ（■□・半/全角空白・改行）
   let cleaned = text.replace(/[^\u25A0\u25A1 \u3000\r\n]/g, "");
@@ -166,23 +153,23 @@ function extractDiagramFromHTML(innerHTML){
   // 右端空白削除 → 同幅化
   lines = lines.map(s => s.replace(/[ \u3000]+$/g, ""));
   const W = Math.max(0, ...lines.map(s => s.length));
-  lines = lines.map(s => s.padEnd(W, " "));
+  lines = lines.map(s => s.padEnd(W, "　"));
 
-  // 最低条件：■=1 / □>=1
+  // 最低条件：■=1 / □>=0
   const joined = lines.join("");
   const nb = (joined.match(/■/g)||[]).length;
   const nw = (joined.match(/□/g)||[]).length;
-  if (nb !== 1 || nw < 1) return null;
+  if (nb !== 1 || nw < 0) return null;
 
   return lines;
 }
 
 /* ---------- スキル図: thead 4列目 先頭から3件 ---------- */
-
 /* 2) スキル図：スキル表があればその thead から、なければ従来法＋E2補完 */
 function pickSkillGridsFromHeaders($){
   // スキル1
   let h4_s1 = $('#content_1_5').first();
+  if(!h4_s1) { return [''] } //スキルを持たないオペレーター
   let divcont = h4_s1.next();
   let table = divcont.children("table");
   let thead = table.children("thead");
@@ -213,43 +200,6 @@ function pickSkillGridsFromHeaders($){
 }
 
 /* ---------- 通常攻撃（E2想定）の図を推定 ---------- */
-/* 攻撃範囲/射程セクションを優先し、E2らしさでスコア */
-function extractSections($, rx){
-  const out = [];
-  $("h2,h3,h4").each((_, h) => {
-    const title = $(h).text().trim();
-    if (!rx.test(title)) return;
-    const parts = [];
-    let n = $(h).next();
-    while (n.length && !/H[2-4]/.test(n[0].tagName)) {
-      parts.push(n[0]);
-      n = n.next();
-    }
-    out.push(load(parts.map(x => $.html(x)).join("")));
-  });
-  return out;
-}
-function collectGridsFromRoot($root){
-  const blocks = [];
-  $root("pre, code, th, td, p, div, blockquote").each((_, el) => {
-    const html = $root(el).html() || "";
-    if (!/[■□]/.test(html)) return;
-    const lines = extractDiagramFromHTML(html);
-    if (lines) blocks.push(lines);
-  });
-  return blocks;
-}
-function scoreForE2(lines, contextText){
-  const g = lines.map(r=>r.trim()).join("\n");
-  let s = 0;
-  if (/(昇進2|昇進Ⅱ|昇進 II|E2|素質|通常攻撃)/i.test(contextText)) s += 5;
-  if (/(攻撃範囲|射程)/.test(contextText)) s += 2;
-  // 図のサイズ・密度で少し点数
-  const whites = (g.match(/□/g)||[]).length;
-  const width = Math.max(...lines.map(r=>r.length));
-  s += Math.min(5, Math.floor(width/3)) + Math.min(5, Math.floor(whites/5));
-  return s;
-}
 function pickNormalAttackGrid($){
   // 通常攻撃
   let h4_s1 = $('#content_1_0').first();
@@ -259,9 +209,12 @@ function pickNormalAttackGrid($){
   let table = divcont3.children("table");
   let tbody = table.children("tbody");
   let tr = tbody.children("tr:nth-child(3)");
+  let e0 = tr.children("td:nth-child(1)");//未昇進
   let e1 = tr.children("td:nth-child(2)");//昇進1
   let e2 = tr.children("td:nth-child(3)");//昇進2
-  if(e2.html() === '-') { 
+  if(e1.html() === '-' || e1.html() === '') { 
+    return extractDiagramFromHTML(e0.html())
+  } if(e2.html() === '-' || e2.html() === '') {
     return extractDiagramFromHTML(e1.html())
   } else {
     return extractDiagramFromHTML(e2.html())
@@ -295,6 +248,34 @@ function classifyKey(lines){
   }
   const have=new Set(cells.map(([x,y])=>`${x},${y}`));
   if ([...need].every(k=>have.has(k))) return `diamond:${r}`;
+
+  // cross
+  // すべての□が X軸(y=0) か Y軸(x=0) 上にあり、かつ両軸に少なくとも1マスある
+  const onlyAxes = cells.every(([x,y]) => x === 0 || y === 0);
+  if (onlyAxes) {
+    const H = cells.filter(([_,y]) => y === 0).map(([x]) => x);
+    const V = cells.filter(([x,_]) => x === 0).map(([_,y]) => y);
+
+    const left  = H.filter(x => x < 0).length ? Math.abs(Math.min(...H.filter(x => x < 0))) : 0;
+    const right = H.filter(x => x > 0).length ? Math.max(...H.filter(x => x > 0)) : 0;
+    const down  = V.filter(y => y < 0).length ? Math.abs(Math.min(...V.filter(y => y < 0))) : 0;
+    const up    = V.filter(y => y > 0).length ? Math.max(...V.filter(y => y > 0)) : 0;
+
+    // 4方向が連続で埋まっているか（穴無し）＆余分な□が無いか
+    const need2 = new Set();
+    for (let i=1;i<=left;i++)  need2.add(`${-i},0`);
+    for (let i=1;i<=right;i++) need2.add(`${ i},0`);
+    for (let i=1;i<=up;i++)    need2.add(`0,${ i}`);
+    for (let i=1;i<=down;i++)  need2.add(`0,${-i}`);
+
+    const have2 = new Set(cells.map(([x,y])=>`${x},${y}`));
+    const contiguous = [...need2].every(k => have2.has(k));
+    const exactSize  = have2.size === need2.size;
+
+    if (contiguous && exactSize && (left+right>0) && (up+down>0)) {
+      return `cross:${left},${right},${up},${down}`;
+    }
+  }
 
   // line:n
   const xs0=cells.filter(([_,y])=>y===0).map(([x])=>x);
@@ -359,6 +340,22 @@ function canonicalGridFromKey(key) {
         else row += " ";
       }
       rows.push(row.replace(/\s+$/,""));
+    }
+    return rows;
+  }
+  if (key.startsWith("cross:")) {
+    const m = key.match(/^cross:(\d+),(\d+),(\d+),(\d+)$/);
+    if (!m) return null;
+    const L = +m[1], R = +m[2], U = +m[3], D = +m[4];
+    const rows = [];
+    for (let y = U; y >= -D; y--) {
+      let row = "";
+      for (let x = -L; x <= R; x++) {
+        if (x === 0 && y === 0) row += "■";
+        else if (x === 0 || y === 0) row += "□";
+        else row += " ";
+      }
+      rows.push(row.replace(/\s+$/, ""));
     }
     return rows;
   }
