@@ -886,8 +886,9 @@
   .attr-chip {
     position: absolute;
     bottom: 2px;
-    padding: 0 4px;
-    font-size: 10px;
+    padding: 4px;
+    font-size: 20px;
+    font-weight: bold;
     line-height: 16px;
     border-radius: 4px;
     color: #fff;
